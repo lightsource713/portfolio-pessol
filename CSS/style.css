@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+h1{
+  font-family: 'Archivo Black', sans-serif;
+}
+header h2{
+  font-family: 'Space Mono', monospace;
+  padding: 5rem 6rem;
+}
+.home{
+  padding: 8rem 6rem;
+}
+
+.home h1{
+  font-size: 5rem;
+}
+.art{
+  z-index: -1;
+  position: absolute;
+  width: 85rem;
+  right: 1.5rem;
+  top: 19rem;
+}
