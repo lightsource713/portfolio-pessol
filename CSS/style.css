@@ -24,10 +24,8 @@ header h2{
   font-size: 4rem;
 }
 .art{
-  z-index: -1;
   position: absolute;
   width: 85rem;
-  right: 1.5rem;
   top: 19rem;
 }
 /* .circle{
