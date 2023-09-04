@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Deutsch-Gothic';
+  src: url('./Deutsch-Gothic/Deutsch.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proclamate_heavy';
+  src: url('./Proclamate/proclamate_heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proclamate_light';
+  src: url('./Proclamate/proclamate_light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
