@@ -8,7 +8,6 @@ function App() {
     <div className="container">
     <p>Ana Beatriz Martins</p>
     <img src="./assets/img/boneco-notebook.png" alt="" />
-      
     </div>
     </>
   )
