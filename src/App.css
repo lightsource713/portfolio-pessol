@@ -1,8 +1,20 @@
-p {
-  font-size: 5rem;
-  font-family: 'proclamate_heavy';
-}
 body{
   background-color: #F3F3F3;
-  width: 100vh;
+}
+.container{
+  display: grid;
+  column-count: 2;
+}
+img{
+  grid-column: 2;
+  max-width: 100%;
+  width: 50vh;
+  padding-top: 20vh;  
+  padding-left: 30vh;  
+}
+p {
+  font-family: 'proclamate_heavy';
+  font-size: 8.5vw;
+  margin-left: 8vh;
+
 }

@@ -6,8 +6,8 @@ function App() {
   return (
     <>
     <div className="container">
-    <p>Ana Beatriz Martins</p>
-    <img src="./assets/img/boneco-notebook.png" alt="" />
+    <p>Ana Beatriz</p>
+    <img src="../public/pbc.png" alt="" />
     </div>
     </>
   )
