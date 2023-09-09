@@ -1,20 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;600;700&display=swap');
 body{
   background-color: #F3F3F3;
 }
 .container{
   display: grid;
   column-count: 2;
+  margin: 1rem;
 }
-img{
+.text{
+  margin-left: 8rem
+}
+.img{
   grid-column: 2;
-  max-width: 100%;
-  width: 50vh;
-  padding-top: 20vh;  
-  padding-left: 30vh;  
 }
-p {
-  font-family: 'proclamate_heavy';
-  font-size: 8.5vw;
-  margin-left: 8vh;
-
+.img3d{
+  max-width: "50%";
+  width: 30rem;
+  padding-top: 17vh;
+  cursor: pointer;
+}
+#title {
+  font-family: 'proclamate_light', sans-serif;
+  font-size: 9vw;
+  color: #000000;
+  text-align: 'center';
+  margin-top: 8rem;
+}
+#subtitle{
+  color: #000000BF;
+  font-family: "Poppins";
+  font-size: 1.8vw;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  margin-top: 30vh;
+  max-width: 28vw;
+}
+#start {
+  width: 8.5rem;
+  height: 5rem;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 1.6rem;
+  padding: 2rem;
+  margin-top: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#start img{
+  max-width: 0.8rem;
+  margin-left: 1.2rem;
+}
+#start p{
+  font-family: 'Poppins';
+  font-weight: 700;
+  color: #00000099;
+  font-size: 1.45rem;
 }
