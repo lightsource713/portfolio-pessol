@@ -1,0 +1,22 @@
+.header {
+    background-color: #FFFFFF;
+    font-family: "proclamate_light", sans-serif;
+    padding: 2rem 10% 2rem 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 62px;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
