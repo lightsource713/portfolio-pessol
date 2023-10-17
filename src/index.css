@@ -37,7 +37,7 @@ a:hover{
 .section{
     background-color: #FFFF;
     margin-top: 5rem;
-    padding: 7rem 15rem;
+    padding: 8rem 15rem;
     display: flex;
     justify-content: end;
 }
@@ -51,7 +51,7 @@ a:hover{
     max-width: 330px;
     padding: 0rem 0rem 0rem 0rem;
     position: absolute;
-    margin-top: -23.8rem;
+    margin-top: -24.8rem;
 }
 .skills{
     flex-direction: column;
@@ -68,7 +68,7 @@ a:hover{
     height: 2rem;
 }
 .skills img{
-    margin-top: -5.8rem;
+    margin-top: -14.5rem;
 }
 span{
     font-weight: bold;
