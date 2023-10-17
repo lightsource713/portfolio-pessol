@@ -4,7 +4,7 @@ import AboutMe from '../../components/AboutMe';
 import MySkills from '../../components/MySkills';
 import MyRoutine from '../../components/MyRoutine';
 
-function About() {
+export function About() {
     return (
         <>
             <Header />
@@ -26,5 +26,3 @@ function About() {
         </>
     )
 }
-
-export default About;

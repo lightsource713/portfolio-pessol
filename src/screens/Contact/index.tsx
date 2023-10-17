@@ -1,6 +1,6 @@
 import './Contact.css'
 
-function Contact(){
+export function Contact(){
     return(
         <>
         <div className="container">
@@ -9,5 +9,3 @@ function Contact(){
         </>
     )
 }
-
-export default Contact;

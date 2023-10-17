@@ -1,6 +1,6 @@
 import "./Home.css";
 
-function Home() {
+export function Home() {
     return(
         <>
         <div className="container">
@@ -10,4 +10,3 @@ function Home() {
     )
 }
 
-export default Home;

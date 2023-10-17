@@ -2,7 +2,7 @@ import "./App.css";
 import "./assets/Fonts/fonts.css";
 import { NavLink } from 'react-router-dom';
 
-function App() {
+export function App() {
   return (
     <>
       <div className="containerApp">
@@ -24,4 +24,3 @@ function App() {
   );
 }
 
-export default App;
