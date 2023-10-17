@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import Home from './screens/Home/'
 import About from './screens/About/index.tsx'
+import Contact from './screens/Contact/index.tsx'
 
 import './index.css'
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter(
     {
       path: '/about',
       element: <About />
+    },
+    {
+      path: '/contact',
+      element: <Contact />
     }
   ]
 )
