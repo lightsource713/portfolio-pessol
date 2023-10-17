@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import Home from './screens/Home'
-import About from './screens/About'
-import Contact from './screens/Contact'
+import Home from './screens/Home/index'
+import About from './screens/About/index'
+import Contact from './screens/Contact/index'
 
 import './index.css'
 
