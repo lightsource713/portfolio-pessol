@@ -13,19 +13,19 @@ export function About() {
                 {/* <div className="tag">
                     <p>About</p>
                 </div> */}
-                <p className='title'>{"<AboutMe />"}</p>
+                <p className='title elementH'>{"<AboutMe />"}</p>
             </div>
             <AboutMe />
             <div className="container containerSkills">
-            <p className='title'>{"<MySkills />"}</p>
+            <p className='title elementH'>{"<MySkills />"}</p>
             </div>
             <MySkills />
             <div className="container containerRoutine">
-            <p className='title'>{"<MyRoutine />"}</p>
+            <p className='title elementH'>{"<MyRoutine />"}</p>
             </div>
             <MyRoutine />
             <div className="container containerRoutine">
-            <p className='title'>{"<SchoolWorks />"}</p>
+            <p className='title elementH'>{"<SchoolWorks />"}</p>
             </div>
             <Senai />
         </>

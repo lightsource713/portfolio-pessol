@@ -1,22 +1,21 @@
 .routine{
-    padding: 7rem 15rem;
+    padding: 7rem 19rem;
 }
 .routine img{
-    max-width: 220px;
-    margin-top: -21.5rem;
+    margin-top: -25.5rem;
 }
 .table{
     font-family: 'Poppins';
     border-radius: 1rem;
     border-collapse:collapse;
-    background-color: rgba(34, 34, 34, 0.75);
+    background-color: #FFFF;
     width: 100%;
-    color: #FFF;
     border-spacing: 1rem; 
     text-align: center;
 }
 th{
     padding: 1rem;
+    color: var(--primary-color);
     font-size: 1.2rem;
 }
 tr:nth-child(even) {

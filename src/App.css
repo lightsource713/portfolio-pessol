@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;600;700&display=swap");
-
 body {
-  background-color: #1b1b1b;
+  background-color: var(--primary-light)
 }
 
 .containerApp {
@@ -21,22 +19,22 @@ body {
 }
 
 .img3d {
-  max-width: 70%;
-  width: 30rem;
+  max-width: 100%;
+  width: 40rem;
   padding-top: 17vh;
   cursor: pointer;
 }
 
 #title {
-  font-family: "blacklettersh", sans-serif;
-  font-size: 10vw;
-  color: #ffffff;
+  font-family: "proclamate_heavy", sans-serif;
+  font-size: 8vw;
+  color: var(--primary-dark);
   text-align: "center";
   margin-top: 7rem;
 }
 
 #subtitle {
-  color: #ffffffbe;
+  color: var(--secondary-dark);
   font-family: "Poppins";
   font-size: 1.8vw;
   font-weight: 600;

@@ -1,24 +1,55 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+    --primary-light: #F3F3F3;
+    --primary-dark: #353535;
+    --secondary-dark: #4e4e4ebe;
+    --primary-color: #0635E0;
+    --secondary-color: #B995FE;
+}
+
+.elementH:hover {
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+.form {
+    border-radius: 23px;
+    background: #ffffff;
+    box-shadow: 19px 19px 49px #ebebeb,
+        -19px -19px 49px #ffffff;
+}
+.form:active{
+    border-radius: 23px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  19px 19px 49px #ebebeb,
+             -19px -19px 49px #ffffff;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
-p{
+
+p {
     font-family: 'Poppins';
-    color: rgba(0, 0, 0, 0.75);
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-a:visited{
+
+a:visited {
     color: #ffffff;
 
 }
-a:hover{
-    color: #3385FF;
+
+a:hover {
+    color: var(--secondary-color);
 }
-  
-.tag{
+
+.tag {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,39 +62,44 @@ a:hover{
     background-color: #FFFF;
     /* color: #3385FF; */
 }
-.title{
+
+.title {
     font-weight: bold;
     font-family: 'Poppins';
     font-size: 35px;
-    color: #ffffff;
-    padding-left:15rem;
+    color: #111;
+    padding-left: 15rem;
 }
 
-.section{
+.section {
     background-color: rgb(255, 255, 255);
     margin-top: 5rem;
     padding: 8rem 15rem;
     display: flex;
     justify-content: center;
 }
-.mainText{
+
+.mainText {
     font-weight: 500;
     text-align: justify;
     font-size: 22px;
     letter-spacing: 0.7px;
 }
-.sectionImg{
+
+.sectionImg {
     max-width: 330px;
     padding: 0rem 0rem 0rem 0rem;
     margin-right: -50.8rem;
     position: absolute;
     margin-top: -24.8rem;
 }
-.skills{
+
+.skills {
     flex-direction: column;
     justify-content: start;
 }
-.skills p{
+
+.skills p {
     margin: 1rem 20rem;
     padding: 1rem 2rem;
     border-radius: 1rem;
@@ -73,10 +109,11 @@ a:hover{
     width: 50%;
     height: 2rem;
 }
-.skills img{
+
+.skills img {
     margin-top: -14.5rem;
 }
-span{
+
+span {
     font-weight: bold;
 }
-

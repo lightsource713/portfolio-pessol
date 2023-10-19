@@ -5,8 +5,8 @@ export default function MyRoutine() {
     return (
         <>
             <div className="section routine">
-                <img src="./boneco-task.png" className="sectionImg"/>
-                <table className="table">
+                <img src="./bnc-terno.png" className="sectionImg"/>
+                <table className="table form">
                     <tr>
                         <th>Horário</th>
                         <th>Segunda</th>
