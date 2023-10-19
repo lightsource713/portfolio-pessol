@@ -11,11 +11,13 @@ a{
     color: black;
 }
 a:visited{
-    color: black;
+    color: #ffffff;
+
 }
 a:hover{
     color: #3385FF;
 }
+  
 .tag{
     display: flex;
     align-items: center;
@@ -31,25 +33,29 @@ a:hover{
 }
 .title{
     font-weight: bold;
+    font-family: 'Poppins';
     font-size: 35px;
-    color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    padding-left:15rem;
 }
+
 .section{
-    background-color: #FFFF;
+    background-color: rgb(255, 255, 255);
     margin-top: 5rem;
     padding: 8rem 15rem;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
-.section p{
+.mainText{
     font-weight: 500;
     text-align: justify;
     font-size: 22px;
     letter-spacing: 0.7px;
 }
-.section img{
+.sectionImg{
     max-width: 330px;
     padding: 0rem 0rem 0rem 0rem;
+    margin-right: -50.8rem;
     position: absolute;
     margin-top: -24.8rem;
 }
@@ -63,7 +69,7 @@ a:hover{
     border-radius: 1rem;
     font-weight: 700;
     text-align: left;
-    background-color: #F3F3F3;
+    background-color: #dfdfdf;
     width: 50%;
     height: 2rem;
 }

@@ -1,0 +1,13 @@
+.container{
+    padding-left: 0;
+}
+.container h1{
+    padding: 3rem 7rem;
+}
+.schoolContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

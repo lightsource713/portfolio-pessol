@@ -9,8 +9,9 @@
     font-family: 'Poppins';
     border-radius: 1rem;
     border-collapse:collapse;
-    background-color: #FFFF;
+    background-color: rgba(34, 34, 34, 0.75);
     width: 100%;
+    color: #FFF;
     border-spacing: 1rem; 
     text-align: center;
 }

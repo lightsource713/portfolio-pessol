@@ -4,6 +4,12 @@ import { App } from './App.tsx'
 import { Home } from './screens/Home'
 import { About } from './screens/About'
 import { Contact } from './screens/Contact'
+import { School } from './screens/School'
+// subjects
+import { Math } from "./screens/School/Math";
+import { Languages } from "./screens/School/Languages";
+import { Science } from "./screens/School/Science";
+import { History } from "./screens/School/History";
 
 import './index.css'
 
@@ -29,6 +35,26 @@ const router = createBrowserRouter(
     {
       path: '/contact',
       element: <Contact />
+    },
+    {
+      path: '/school',
+      element: <School />,
+    },
+    {
+      path: '/school/math',
+      element: <Math />,
+    },
+    {
+      path: '/school/science',
+      element: <Science />,
+    },
+    {
+      path: '/school/history',
+      element: <History />,
+    },
+    {
+      path: '/school/languages',
+      element: <Languages />,
     }
   ]
 )

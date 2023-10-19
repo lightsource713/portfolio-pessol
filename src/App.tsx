@@ -1,6 +1,7 @@
 import "./App.css";
 import "./assets/Fonts/fonts.css";
 import { NavLink } from 'react-router-dom';
+// import { ToggleColorMode } from './components/DarkMode'
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
           </NavLink>
         </div>
         <div className="img">
+        {/* <ToggleColorMode /> */}
         <img className="img3d" src="./pbc.png" />
         </div>
       </div>

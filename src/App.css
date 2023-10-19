@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;600;700&display=swap");
 
 body {
-  background-color: #f3f3f3;
+  background-color: #1b1b1b;
 }
 
 .containerApp {
   display: grid;
   column-count: 2;
-  margin: 1rem;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
 }
 
 .text {
@@ -19,22 +21,22 @@ body {
 }
 
 .img3d {
-  max-width: "50%";
+  max-width: 70%;
   width: 30rem;
   padding-top: 17vh;
   cursor: pointer;
 }
 
 #title {
-  font-family: "proclamate_light", sans-serif;
-  font-size: 9vw;
-  color: #000000;
+  font-family: "blacklettersh", sans-serif;
+  font-size: 10vw;
+  color: #ffffff;
   text-align: "center";
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 
 #subtitle {
-  color: #000000bf;
+  color: #ffffffbe;
   font-family: "Poppins";
   font-size: 1.8vw;
   font-weight: 600;
@@ -55,8 +57,8 @@ body {
   justify-content: center;
   cursor: pointer;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow: 20px 20px 60px #d9d9d9,
-    -20px -20px 60px #ffffff;
+  /* box-shadow: 20px 20px 60px #414141, */
+    /* -20px -20px 60px #242424; */
 }
 
 #start img {
@@ -67,7 +69,7 @@ body {
 #start p {
   font-family: "Poppins";
   font-weight: 700;
-  color: #00000099;
+  color: #000000ce;
   font-size: 1.45rem;
 }
 

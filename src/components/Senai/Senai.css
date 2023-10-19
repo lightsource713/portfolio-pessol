@@ -1,0 +1,40 @@
+.card{
+    background-color: #f0f0f0ea;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 17rem;
+    padding: 2rem 2.5rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #7DB1FF;
+    padding: 2.5rem 3rem;
+
+}
+.card p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0rem 0rem 1rem 0rem;
+}
+.cardImage{
+    max-width: 150px;
+    max-height: 150px;
+    padding: 1rem;
+}
+.school{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+.works{
+    display: flex;
+    padding: 2rem 2rem;
+    justify-content: center;
+}

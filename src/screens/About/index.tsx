@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import AboutMe from '../../components/AboutMe';
 import MySkills from '../../components/MySkills';
 import MyRoutine from '../../components/MyRoutine';
+import Senai from '../../components/Senai';
 
 export function About() {
     return (
@@ -23,6 +24,10 @@ export function About() {
             <p className='title'>{"<MyRoutine />"}</p>
             </div>
             <MyRoutine />
+            <div className="container containerRoutine">
+            <p className='title'>{"<SchoolWorks />"}</p>
+            </div>
+            <Senai />
         </>
     )
 }
