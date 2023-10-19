@@ -1,13 +1,47 @@
-.container{
-    padding-left: 0;
-}
-.container h1{
-    padding: 3rem 7rem;
-}
-.schoolContainer{
-    width: 100%;
+.containerSchool{
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 7rem 0rem 7rem 0rem;
+    gap: 3rem;
+    overflow-x: hidden;
+}
+.containerSchool span{
+    font-size: 22px;
+    color: var(--secondary-dark);
+}
+.sectionImg{
+    margin-bottom: 42rem;
+}
+.schoolSbj{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    font-family: 'Poppins';
+    align-items: center;
+    width: 100%;
+    text-align: left;
+} #lng{max-width: 16rem;
+    margin-bottom: 68rem;
+}
+
+.subtitle{
+    font-weight: 600;
+    text-align: left;
+    color: var(--primary-color);
+    font-size:1.5rem;
+    width: 100%;
+    padding: 0;
+}
+.iframe{
+    max-width: 50%;
+    padding: 2rem 10rem;
+    margin-top: 2rem;
+}
+.iframeDocs{
+    width: 100%;
+    height: 100vh;
+    border: 0px;
 }

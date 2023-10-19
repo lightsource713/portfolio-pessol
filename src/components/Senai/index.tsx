@@ -36,7 +36,7 @@ export function Languages() {
         <>
             <NavLink to="/school/languages">
                 <div className="card form">
-                    <img src="./bnc-book.png" className="cardImage" />
+                    <img src="./bnc-book2.png" className="cardImage" />
                     <p>
                         Linguagens e suas Tecnologias
                     </p>
@@ -50,13 +50,15 @@ export function Languages() {
 export function History() {
     return (
         <>
-            <div className="card form">
-                <img src="./bnc-thinking.png" className="cardImage" />
-                <p>
+            <NavLink to="/school/history">
+                <div className="card form">
+                    <img src="./bnc-thinking.png" className="cardImage" />
+                    <p>
 
-                    Ciências Humanas e suas Tecnologias
-                </p>
-            </div>
+                        Ciências Humanas e suas Tecnologias
+                    </p>
+                </div>
+            </NavLink>
         </>
     )
 }
@@ -65,12 +67,14 @@ export function History() {
 export function Nature() {
     return (
         <>
-            <div className="card form">
-                <img src="./bnc-science.png" className="cardImage" />
-                <p>
-                    Ciências da Natureza e suas Tecnologias
-                </p>
-            </div>
+            <NavLink to="/school/science">
+                <div className="card form">
+                    <img src="./bnc-science.png" className="cardImage" />
+                    <p>
+                        Ciências da Natureza e suas Tecnologias
+                    </p>
+                </div>
+            </NavLink>
         </>
     )
 }

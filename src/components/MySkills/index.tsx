@@ -3,8 +3,8 @@ export default function MySkills(){
         <>
         <div className="section skills">
             <img src="./boneco-cruzado.png" className="sectionImg"/>
-            <p>Soft Skills</p>
-            <p>Hard Skills</p>
+            <p className="form">Soft Skills</p>
+            <p className="form">Hard Skills</p>
         </div>
         </>
     )

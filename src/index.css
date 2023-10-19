@@ -7,7 +7,23 @@
     --primary-color: #0635E0;
     --secondary-color: #B995FE;
 }
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #dfdfdf;
+}
 
+::-webkit-scrollbar-track {
+    background: #dfdfdf;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #707070;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary-color);
+  }
+  
 .elementH:hover {
     color: var(--secondary-color);
     transition: 0.5s;
@@ -21,14 +37,16 @@
 }
 .form:active{
     border-radius: 23px;
-background: linear-gradient(145deg, #e6e6e6, #ffffff);
-box-shadow:  19px 19px 49px #ebebeb,
-             -19px -19px 49px #ffffff;
+    background: #ffffff;
+    box-shadow: inset 34px 34px 69px #ebebeb,
+                inset -34px -34px 69px #ffffff;
 }
 
 * {
     margin: 0;
     padding: 0;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -37,7 +55,7 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 }
 
 a:visited {

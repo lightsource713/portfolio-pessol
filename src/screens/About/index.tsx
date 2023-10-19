@@ -4,19 +4,21 @@ import AboutMe from '../../components/AboutMe';
 import MySkills from '../../components/MySkills';
 import MyRoutine from '../../components/MyRoutine';
 import Senai from '../../components/Senai';
+import ScrollToTop from '../../components/Scroll';
+import { Footer } from '../../components/Footer';
 
 export function About() {
     return (
         <>
             <Header />
-            <div className="container">
+            <div className="container" id='aboutme'>
                 {/* <div className="tag">
                     <p>About</p>
                 </div> */}
                 <p className='title elementH'>{"<AboutMe />"}</p>
             </div>
             <AboutMe />
-            <div className="container containerSkills">
+            <div className="container containerSkills" id='skills'>
             <p className='title elementH'>{"<MySkills />"}</p>
             </div>
             <MySkills />
@@ -28,6 +30,8 @@ export function About() {
             <p className='title elementH'>{"<SchoolWorks />"}</p>
             </div>
             <Senai />
+            <ScrollToTop />
+            <Footer />
         </>
     )
 }
