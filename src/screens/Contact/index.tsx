@@ -1,7 +1,7 @@
 import './Contact.css'
 import Header from '../../components/Header'
 
-export function Contact() {
+export function ContactPage() {
     return (
         <>
             <Header />

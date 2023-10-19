@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { App } from './App.tsx'
 import { Home } from './screens/Home'
 import { About } from './screens/About'
-import { Contact } from './screens/Contact'
+import { ContactPage } from './screens/Contact'
 import { School } from './screens/School'
 // subjects
 import { Math } from "./screens/School/Math";
@@ -34,7 +34,7 @@ const router = createBrowserRouter(
     },
     {
       path: '/about/contact',
-      element: <Contact />
+      element: <ContactPage />
     },
     {
       path: '/school',
