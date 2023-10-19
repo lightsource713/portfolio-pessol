@@ -11,7 +11,7 @@ export default function Header() {
                     <a href="/">Home</a>
                     <a href="/about#aboutme">About</a>
                     <a href="/about#skills">Skills</a>
-                    <a href="/contact">Contact</a>
+                    <a href="/about/contact">Contact</a>
                 </div>
             </header>
         </>
