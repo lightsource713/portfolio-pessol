@@ -6,6 +6,7 @@ import MyRoutine from '../../components/MyRoutine';
 import Senai from '../../components/Senai';
 import ScrollToTop from '../../components/Scroll';
 import { Footer } from '../../components/Footer';
+import { Link } from 'react-router-dom';
 
 export function About() {
     return (
@@ -35,14 +36,14 @@ export function About() {
             </div>
             <div className="section">
                 <img src="./boneco-mao1.png" className="sectionImg" />
-                <a href="/school/technician">
+                <Link to="/school/technician">
                     <div className="card form">
                         <img src="./pbc.png" className="cardImage" />
                         <p style={{ color: "black" }}>
                             Projetos do tecnico de 2023
                         </p>
                     </div>
-                </a>
+                </Link>
             </div>
             <ScrollToTop />
             <Footer />
