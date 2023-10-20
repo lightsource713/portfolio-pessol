@@ -9,9 +9,9 @@ export default function Header() {
                     <h1>Anabe</h1>
                 </a>
                 <div className="links">
-                    <a href="/">Home</a>
-                    <a href="/about#aboutme">About</a>
-                    <a href="/about#skills">Skills</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/about#aboutme">About</Link>
+                    <Link to="/about#skills">Skills</Link>
                     <Link to="/about/contact">Contact</Link>
                 </div>
             </header>
