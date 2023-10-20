@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import { Footer } from '../../components/Footer'
 // import { NavLink } from 'react-router-dom'
 import { XP, SA, POO, Pratice } from '../School/iframes'
-import { VM, Print } from '../School/iframes'
+import { VM } from '../School/iframes'
 import { APIGit, FisicBD, RetakeBD, TestSys } from '../School/iframes'
 
 export function Tech() {
@@ -58,12 +58,14 @@ export function Tech() {
                         <POO />
                     </h2>
                 </div>
+                {/* Charles */}
                 <div className="section schoolSbj">
                     <h2 className='subtitle'>
                         Implantação e Manutenção de Sistemas <br />
                         <span>
                         Pesquisa de Virtualizadores
                         </span>
+                        <VM />
                     </h2>
                 </div>
                 <div className="section schoolSbj">
