@@ -6,7 +6,6 @@ import MyRoutine from '../../components/MyRoutine';
 import Senai from '../../components/Senai';
 import ScrollToTop from '../../components/Scroll';
 import { Footer } from '../../components/Footer';
-import { Link } from 'react-router-dom';
 import { TechWorks } from '../../components/TechWorks';
 
 export function About() {

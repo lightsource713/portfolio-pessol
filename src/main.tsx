@@ -18,6 +18,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
+import { Choose } from './screens/Tech/Choose/index'
 
 const router = createBrowserRouter(
   [
@@ -60,6 +61,10 @@ const router = createBrowserRouter(
     {
       path: '/school/technician',
       element: <Tech />,
+    },
+    {
+      path: '/school/technician/choose',
+      element: <Choose />,
     },
   ]
 )

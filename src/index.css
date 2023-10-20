@@ -7,20 +7,23 @@
     --primary-color: #0635E0;
     --secondary-color: #B995FE;
 }
-::-webkit-scrollbar{
+body{
+    overflow-x: hidden;
+}
+*::-webkit-scrollbar{
     width: 12px;
     background-color: #dfdfdf;
 }
 
-::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #dfdfdf;
   }
   
-  ::-webkit-scrollbar-thumb {
+  *::-webkit-scrollbar-thumb {
     background-color: #707070;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
+  *::-webkit-scrollbar-thumb:hover {
     background-color: var(--secondary-color);
   }
   
@@ -131,7 +134,10 @@ a:hover {
 .skills img {
     margin-top: -14.5rem;
 }
-
+.sectionTech{
+    display: flex;
+    gap: 2rem;
+}
 span {
     font-weight: bold;
 }
