@@ -25,7 +25,7 @@
     text-align: left;
 } #lng{max-width: 16rem;
     margin-bottom: 68rem;
-}
+}#his{margin-bottom: 162rem;}
 
 .subtitle{
     font-weight: 600;
@@ -44,4 +44,8 @@
     width: 100%;
     height: 100vh;
     border: 0px;
+}
+.iframeInfo{
+    height: 100%;
+    width: 100%;
 }

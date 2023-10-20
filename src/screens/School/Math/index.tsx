@@ -1,5 +1,5 @@
 import { Footer } from '../../../components/Footer'
-import { ReportagemMtm, AtvFilm } from './iframes'
+import { ReportagemMtm, AtvFilm } from '../iframes'
 import Header from '../../../components/Header'
 import '../School.css'
 import ScrollToTop from '../../../components/Scroll'

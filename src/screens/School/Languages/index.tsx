@@ -1,7 +1,8 @@
 import { Footer } from '../../../components/Footer'
-import { Text, Magazine, Modernism } from '../Math/iframes'
+import { Text, Magazine, Modernism } from '../iframes'
 import Header from '../../../components/Header'
 import '../School.css'
+import ScrollToTop from '../../../components/Scroll'
 
 export function Languages() {
     return (
@@ -29,6 +30,7 @@ export function Languages() {
                     </h2>
                 </div>
             </div>
+            <ScrollToTop />
             <Footer />
         </>
     )
