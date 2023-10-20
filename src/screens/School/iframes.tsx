@@ -1,5 +1,7 @@
 import './School.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
+// import "node_modules/video-react/dist/video-react.css"; // import css
+// import { Player } from 'video-react';
 
 // Math
 export function ReportagemMtm() {
@@ -331,12 +333,12 @@ export function CanvaAPI() {
 export function FisicBD() {
     return (
         <div className="iframe form">
-                <h1>Cadastro de Veículos em Java</h1>
-                <a href="https://github.com/anabmartins/cadastroveiculosJava" id='linkGit' target='_blank'>
-                    <GitHubIcon />
-                    <p id='text'>Repositório Github</p>
-                </a>
-                <img src="../../../../codeJava.png" style={{margin: 20}}/>
+            <h1>Cadastro de Veículos em Java</h1>
+            <a href="https://github.com/anabmartins/cadastroveiculosJava" id='linkGit' target='_blank'>
+                <GitHubIcon />
+                <p id='text'>Repositório Github</p>
+            </a>
+            <img src="../../../../codeJava.png" style={{ margin: 20 }} />
         </div>
     )
 }
@@ -354,4 +356,42 @@ export function RetakeBD() {
         </div>
     )
 }
+
+
+export function TS() {
+    return (
+        <div className="iframe form">
+            <iframe className="iframeDocs form" src="https://docs.google.com/document/d/e/2PACX-1vTt0hRyjUUSkV4D8w-_puOZxZLDBqyfiNiuNmqqyk_iq14nDJyjLzaT7QEOzxa4-z_SAMFUM1sPKp29/pub?embedded=true"></iframe>
+        </div>
+    )
+}
+
+export function IC() {
+    return (
+        <div className="iframe form">
+            <iframe className="iframeDocs form" src="https://docs.google.com/document/d/e/2PACX-1vTnMXX1zXybnFkxiDsyWU0JDj0-pvF4YxYcRhcdy8UR45407MhPnQGy08CpdHozjw/pub?embedded=true"></iframe>
+        </div>
+    )
+}
+
+
+export function SiteIC() {
+    return (
+        <div className="iframe form">
+            <iframe src="https://ic-website-2023.vercel.app/" className='iframeSite'></iframe>
+        </div>
+    )
+ }
+
+// export function Video() {
+//     return (
+//         <div className="iframe form">
+//               <Player
+//                 playsInline
+//                 poster="/assets/poster.png"
+//                 src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
+//                 />
+//         </div>
+//     )
+// }
 
