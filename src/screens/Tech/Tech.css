@@ -1,0 +1,54 @@
+.containerTech{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+.schoolTech{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0rem;
+}
+.titleTech{
+    text-align: center;
+    padding: 4rem 0rem 5rem 0rem;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 35px;
+    color: #111;
+}
+.cardtec{
+    background-color: #f0f0f0ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 17rem;
+    padding: 2rem 2.5rem;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #111;
+}
+.cardtec p {
+    text-align: center;
+    font-family: 'proclamate_light';
+    font-size: 28px;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.cardImage {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 1rem;
+}
+#pbc{
+    margin-bottom: 49rem;
+    max-width: 300px;
+}

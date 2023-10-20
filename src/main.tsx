@@ -10,6 +10,7 @@ import { Math } from "./screens/School/Math";
 import { Languages } from "./screens/School/Languages";
 import { Science } from "./screens/School/Science";
 import { History } from "./screens/School/History";
+import { Tech } from "./screens/Tech";
 
 import './index.css'
 
@@ -55,7 +56,11 @@ const router = createBrowserRouter(
     {
       path: '/school/languages',
       element: <Languages />,
-    }
+    },
+    {
+      path: '/school/technician',
+      element: <Tech />,
+    },
   ]
 )
 ReactDOM.createRoot(document.getElementById('root')!).render(
