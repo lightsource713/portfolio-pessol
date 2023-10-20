@@ -2,9 +2,8 @@ import './Tech.css'
 import Header from '../../components/Header'
 import { Footer } from '../../components/Footer'
 // import { NavLink } from 'react-router-dom'
-import { XP, SA, POO, Pratice } from '../School/iframes'
-import { VM } from '../School/iframes'
-import { APIGit, FisicBD, RetakeBD, TestSys } from '../School/iframes'
+import { XP, SA, POO, Pratice, VM, APIGit, FisicBD, RetakeBD, TestSys } from '../School/iframes'
+// import {  } from '../School/iframes'
 
 export function Tech() {
     return (
@@ -65,7 +64,7 @@ export function Tech() {
                         <span>
                         Pesquisa de Virtualizadores
                         </span>
-                        <VM />
+                         <VM /> 
                     </h2>
                 </div>
                 <div className="section schoolSbj">
