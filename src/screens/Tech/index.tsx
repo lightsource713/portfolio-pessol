@@ -2,7 +2,9 @@ import './Tech.css'
 import Header from '../../components/Header'
 import { Footer } from '../../components/Footer'
 // import { NavLink } from 'react-router-dom'
-import { XP } from '../School/iframes'
+import { XP, SA, POO, Pratice } from '../School/iframes'
+import { VM, Print } from '../School/iframes'
+import { APIGit, FisicBD, RetakeBD, TestSys } from '../School/iframes'
 
 export function Tech() {
     return (
@@ -42,32 +44,65 @@ export function Tech() {
                 </div>
                 <div className="section schoolSbj">
                     <h2 className='subtitle'>
-                        Modelagem e programação de aplicativos <br />
                         <span>
-                        Diagrama de Casos de Uso da SA
+                        Diagramas e telas da Situação de Aprendizaem
                         </span>
-                        <XP />
+                        <SA />
                     </h2>
                 </div>
                 <div className="section schoolSbj">
                     <h2 className='subtitle'>
-                        Modelagem e programação de aplicativos <br />
                         <span>
-                        Diagrama de Atividades da SA
+                        Teoria da POO
                         </span>
-                        <XP />
+                        <POO />
                     </h2>
                 </div>
                 <div className="section schoolSbj">
                     <h2 className='subtitle'>
-                        Modelagem e programação de aplicativos <br />
+                        Implantação e Manutenção de Sistemas <br />
                         <span>
-                        Diagrama de Classe da SA
+                        Pesquisa de Virtualizadores
                         </span>
-                        <XP />
                     </h2>
                 </div>
+                <div className="section schoolSbj">
+                <h2 className='subtitle'>
+                    <span>Atividade Prática</span>
+                    <Pratice />
+                </h2>
             </div>
+
+            <div className="section schoolSbj">
+                <h2 className='subtitle'>
+                    DS, Testes e Banco de Dados
+                    <span>APIGitHub</span>
+                    <APIGit/>
+                </h2>
+            </div>
+            <div className="section schoolSbj">
+                <h2 className='subtitle'>
+                    <span>Modelo Físico Banco de Dados</span>
+                    <FisicBD/>
+                </h2>
+            </div>
+            
+            <div className="section schoolSbj">
+                <h2 className='subtitle'>
+                    <span>Retomada Banco de Dados</span>
+                    <RetakeBD/>
+                </h2>
+            </div>
+                        
+            <div className="section schoolSbj">
+                <h2 className='subtitle'>
+                    <span>Teste de Usabilidade</span>
+                    <TestSys />
+                </h2>
+            </div>
+            
+            </div>
+
             <Footer />
         </>
     )
