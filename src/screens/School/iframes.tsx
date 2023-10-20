@@ -1,4 +1,5 @@
 import './School.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 // Math
 export function ReportagemMtm() {
@@ -214,8 +215,8 @@ export function Vargas() {
 
 export function XP() {
     return (
-        <div className="iframe form">
-            <div style={{ position: 'relative', width: '100%', height: 0, paddingTop: '56.2500%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
+        <div className="iframe">
+            <div className="form" style={{ position: 'relative', width: '100%', height: 0, paddingTop: '56.2500%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
                 <iframe title="Canva Embed" loading="lazy" style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, border: 'none', padding: 0, margin: 0 }} src="https://www.canva.com/design/DAFoboWseUM/view?embed" allowFullScreen={true} allow="fullscreen"></iframe>
             </div>
 
@@ -226,8 +227,16 @@ export function XP() {
 
 export function SA() {
     return (
-        <div className="iframe form">
-
+        <div className="iframe">
+            <div className="form" style={{ position: 'relative', width: '100%', height: 0, paddingTop: '56.2500%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
+                <iframe
+                    title="Canva Embed"
+                    style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, border: 'none', padding: 0, margin: 0 }}
+                    src="https://www.canva.com/design/DAFxyzRMh9o/view?embed"
+                    allowFullScreen
+                    allow="fullscreen"
+                />
+            </div>
         </div>
     )
 }
@@ -236,7 +245,7 @@ export function SA() {
 export function POO() {
     return (
         <div className="iframe form">
-
+            <iframe className="iframeDocs form" src="https://docs.google.com/document/d/e/2PACX-1vT_VLf2vgqIayvV7v0_kybdWYSfftYv_FDxdqD0JMk3UEcGqcUmqtbEcT3SeVNjzVSa9VmbMHSfC6eC/pub?embedded=true"></iframe>
         </div>
     )
 }
@@ -246,7 +255,7 @@ export function POO() {
 export function VM() {
     return (
         <div className="iframe form">
-
+            <iframe className="iframeDocs form" src="https://docs.google.com/document/d/e/2PACX-1vRCel2nOZRD0B4SS2e-l9-TSxyH9zyoRR6b5_m07fz527j-dhtE2tXTKGNCfA5vhzIU_CEJ7xuh456L/pub?embedded=true"></iframe>
         </div>
     )
 }
@@ -255,7 +264,36 @@ export function VM() {
 export function Print() {
     return (
         <div className="iframe form">
-
+            <div style={{
+                position: 'relative',
+                width: '100%',
+                height: 0,
+                paddingTop: '56.2500%',
+                paddingBottom: 0,
+                boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+                marginTop: '1.6em',
+                marginBottom: '0.9em',
+                overflow: 'hidden',
+                borderRadius: '8px',
+                willChange: 'transform'
+            }}>
+                <iframe
+                    loading="lazy"
+                    style={{
+                        position: 'absolute',
+                        width: '100%',
+                        height: '100%',
+                        top: 0,
+                        left: 0,
+                        border: 'none',
+                        padding: 0,
+                        margin: 0
+                    }}
+                    src="https://www.canva.com/design/DAFxzHtMYf4/view?embed"
+                    allowFullScreen
+                    allow="fullscreen"
+                />
+            </div>
         </div>
     )
 }
@@ -266,7 +304,25 @@ export function Print() {
 export function APIGit() {
     return (
         <div className="iframe form">
+            <iframe className='iframeSite' src="https://api-github-web.netlify.app/"></iframe>
+        </div>
+    )
+}
 
+export function CanvaAPI() {
+    return (
+        <div className="iframe form">
+            <div style={{ position: 'relative', width: '100%', height: 0, paddingTop: '56.2500%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
+                <iframe
+                    loading="lazy"
+                    style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, border: 'none', padding: 0, margin: 0 }}
+                    src="https://www.canva.com/design/DAFn29T9pIQ/view?embed"
+                    allowFullScreen
+                    allow="fullscreen"
+                    sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                >
+                </iframe>
+            </div>
         </div>
     )
 }
@@ -275,7 +331,12 @@ export function APIGit() {
 export function FisicBD() {
     return (
         <div className="iframe form">
-
+                <h1>Cadastro de Veículos em Java</h1>
+                <a href="https://github.com/anabmartins/cadastroveiculosJava" id='linkGit' target='_blank'>
+                    <GitHubIcon />
+                    <p id='text'>Repositório Github</p>
+                </a>
+                <img src="../../../../codeJava.png" style={{margin: 20}}/>
         </div>
     )
 }
@@ -284,17 +345,13 @@ export function FisicBD() {
 export function RetakeBD() {
     return (
         <div className="iframe form">
-
+            <span>Modelo Lógico</span> <br />
+            <img src="../../../ModeloLogico.png" /> <br />
+            <span>Modelo Físico</span> <br />
+            <img src="../../../modeloFisico.png" /><br />
+            <span>Modelo Conceitual</span> <br />
+            <img src="../../../ModeloConceitual.png" />
         </div>
     )
 }
 
-
-
-export function TestSys() {
-    return (
-        <div className="iframe form">
-
-        </div>
-    )
-}

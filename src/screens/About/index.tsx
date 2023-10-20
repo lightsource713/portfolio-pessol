@@ -7,6 +7,7 @@ import Senai from '../../components/Senai';
 import ScrollToTop from '../../components/Scroll';
 import { Footer } from '../../components/Footer';
 import { Link } from 'react-router-dom';
+import { TechWorks } from '../../components/TechWorks';
 
 export function About() {
     return (
@@ -34,17 +35,7 @@ export function About() {
             <div className="container">
                 <p className='title elementH'>{"<TechWorks />"}</p>
             </div>
-            <div className="section">
-                <img src="./boneco-mao1.png" className="sectionImg" />
-                <Link to="/school/technician">
-                    <div className="card form">
-                        <img src="./pbc.png" className="cardImage" />
-                        <p style={{ color: "black" }}>
-                            Projetos do tecnico de 2023
-                        </p>
-                    </div>
-                </Link>
-            </div>
+            <TechWorks />
             <ScrollToTop />
             <Footer />
         </>

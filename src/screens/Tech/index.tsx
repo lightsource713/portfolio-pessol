@@ -2,8 +2,8 @@ import './Tech.css'
 import Header from '../../components/Header'
 import { Footer } from '../../components/Footer'
 // import { NavLink } from 'react-router-dom'
-import { XP, SA, POO, Pratice, VM, APIGit, FisicBD, RetakeBD, TestSys } from '../School/iframes'
-// import {  } from '../School/iframes'
+import { XP, SA, POO, VM, APIGit, FisicBD, RetakeBD, Print, CanvaAPI } from '../School/iframes'
+import ScrollToTop from '../../components/Scroll'
 
 export function Tech() {
     return (
@@ -44,7 +44,7 @@ export function Tech() {
                 <div className="section schoolSbj">
                     <h2 className='subtitle'>
                         <span>
-                        Diagramas e telas da Situação de Aprendizaem
+                            Diagramas e telas da Situação de Aprendizaem
                         </span>
                         <SA />
                     </h2>
@@ -52,7 +52,7 @@ export function Tech() {
                 <div className="section schoolSbj">
                     <h2 className='subtitle'>
                         <span>
-                        Teoria da POO
+                            Teoria da POO
                         </span>
                         <POO />
                     </h2>
@@ -62,48 +62,48 @@ export function Tech() {
                     <h2 className='subtitle'>
                         Implantação e Manutenção de Sistemas <br />
                         <span>
-                        Pesquisa de Virtualizadores
+                            Pesquisa de Virtualizadores
                         </span>
-                         <VM /> 
+                        <VM />
                     </h2>
                 </div>
                 <div className="section schoolSbj">
-                <h2 className='subtitle'>
-                    <span>Atividade Prática</span>
-                    <Pratice />
-                </h2>
-            </div>
+                    <h2 className='subtitle'>
+                        <span>Atividade Prática</span>
+                        <Print />
+                    </h2>
+                </div>
 
-            <div className="section schoolSbj">
-                <h2 className='subtitle'>
-                    DS, Testes e Banco de Dados
-                    <span>APIGitHub</span>
-                    <APIGit/>
-                </h2>
-            </div>
-            <div className="section schoolSbj">
-                <h2 className='subtitle'>
-                    <span>Modelo Físico Banco de Dados</span>
-                    <FisicBD/>
-                </h2>
-            </div>
-            
-            <div className="section schoolSbj">
-                <h2 className='subtitle'>
-                    <span>Retomada Banco de Dados</span>
-                    <RetakeBD/>
-                </h2>
-            </div>
-                        
-            <div className="section schoolSbj">
-                <h2 className='subtitle'>
-                    <span>Teste de Usabilidade</span>
-                    <TestSys />
-                </h2>
-            </div>
-            
-            </div>
+                <div className="section schoolSbj">
+                    <h2 className='subtitle'>
+                        Desenvolvimento, Testes e Banco de Dados <br />
+                        <span>APIGitHub</span>
+                        <APIGit />
+                    </h2>
+                </div>
+                <div className="section schoolSbj">
+                    <h2 className='subtitle'>
+                        Desenvolvimento, Testes e Banco de Dados <br />
+                        <span>APIGitHub</span>
+                        <CanvaAPI />
+                    </h2>
+                </div>
+                <div className="section schoolSbj">
+                    <h2 className='subtitle'>
+                        <span>Modelo Físico Banco de Dados</span>
+                        <FisicBD />
+                    </h2>
+                </div>
 
+                <div className="section schoolSbj">
+                    <h2 className='subtitle'>
+                        <span>Retomada Banco de Dados</span>
+                        <RetakeBD />
+                    </h2>
+                </div>
+
+            </div>
+            <ScrollToTop />
             <Footer />
         </>
     )
