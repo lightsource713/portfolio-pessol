@@ -19,7 +19,7 @@ export function App() {
         </div>
         <div className="img">
         {/* <ToggleColorMode /> */}
-        <img className="img3d" src="./pbc.png" />
+        <img className="img3d" src="./pbc1.png" />
         </div>
       </div>
     </>

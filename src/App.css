@@ -19,9 +19,8 @@ body {
 }
 
 .img3d {
-  max-width: 100%;
-  width: 40rem;
-  padding-top: 17vh;
+  max-width: 30rem;
+  padding-top: 20%;
   cursor: pointer;
 }
 
@@ -52,11 +51,13 @@ body {
   margin-top: 2.8rem;
   display: flex;
   align-items: center;
+  transition: background-color 0.8s;
   justify-content: center;
+  opacity: 1;
   cursor: pointer;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   /* box-shadow: 20px 20px 60px #414141, */
-    /* -20px -20px 60px #242424; */
+  /* -20px -20px 60px #242424; */
 }
 
 #start img {
@@ -75,4 +76,12 @@ body {
   background: #ffffff;
   box-shadow: inset 20px 20px 60px #d9d9d9,
     inset -20px -20px 60px #ffffff;
+    width: 8.7rem;
+    height: 5.2rem;
+}
+#start:hover {
+  background: linear-gradient(-45deg, #ffffff, #e6e6e6);
+  opacity: 0.7;
+  width: 8.7rem;
+  height: 5.2rem;
 }
