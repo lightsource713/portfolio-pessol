@@ -4,7 +4,7 @@ export function TechWorks() {
     return (
         <>
             <div className="section sectionTech">
-                <img src="./boneco-mao1.png" className="sectionImg" />
+                <img src="./boneco-mao.png" className="sectionImg" />
                 <Link to="/school/technician">
                     <div className="card form">
                         <img src="./pbc.png" className="cardImage" />
