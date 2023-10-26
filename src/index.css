@@ -2,10 +2,10 @@
 
 :root {
     --primary-light: #F3F3F3;
-    --primary-dark: #353535;
+    --primary-dark: #242424;
     --secondary-dark: #4e4e4ebe;
     --primary-color: #0635E0;
-    --secondary-color: #B995FE;
+    --secondary-color: #7429ff;
 }
 body{
     overflow-x: hidden;
@@ -58,11 +58,11 @@ p {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--primary-dark);
 }
 
 a:visited {
-    color: #ffffff;
+    color: var(--primary-dark);
 
 }
 
@@ -70,28 +70,21 @@ a:hover {
     color: var(--secondary-color);
 }
 
-.tag {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 35px;
-    width: 4.5rem;
-    font-weight: 600;
-    font-size: 14px;
-    font-family: 'Poppins';
-    background-color: #FFFF;
-    /* color: #3385FF; */
-}
-
 .title {
     font-weight: bold;
     font-family: 'Poppins';
     font-size: 35px;
     color: #111;
-    padding-left: 15%;
+    padding: 5rem 15rem;
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* padding: 7rem 0rem 0rem 0rem; */
+    gap: 3rem;
+}
 .section {
     background-color: rgb(255, 255, 255);
     margin-top: 5rem;
@@ -115,29 +108,6 @@ a:hover {
     margin-top: -24.8rem;
 }
 
-.skills {
-    flex-direction: column;
-    justify-content: start;
-}
-
-.skills p {
-    margin: 1rem 20rem;
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    font-weight: 700;
-    text-align: left;
-    background-color: #dfdfdf;
-    width: 50%;
-    height: 2rem;
-}
-
-.skills img {
-    margin-top: -14.5rem;
-}
-.sectionTech{
-    display: flex;
-    gap: 2rem;
-}
 span {
     font-weight: bold;
 }

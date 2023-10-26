@@ -16,6 +16,8 @@ body {
 
 .img {
   grid-column: 2;
+  position: relative;
+  display: inline-block;
 }
 
 .img3d {
@@ -76,12 +78,45 @@ body {
   background: #ffffff;
   box-shadow: inset 20px 20px 60px #d9d9d9,
     inset -20px -20px 60px #ffffff;
-    width: 8.7rem;
-    height: 5.2rem;
+  width: 8.7rem;
+  height: 5.2rem;
 }
+
 #start:hover {
   background: linear-gradient(-45deg, #ffffff, #e6e6e6);
   opacity: 0.7;
   width: 8.7rem;
   height: 5.2rem;
+}
+
+.balao {
+  visibility: hidden;
+  background-color: #D9D9D9;
+  color: #00000099;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  margin-left: -20%;
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+  &:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #D9D9D9 transparent transparent transparent;
+    top: 100%;
+    left: 20%;
+    transform: translateX(-95%);  }
+}
+
+.img:hover .balao  {
+  visibility: visible;
+  opacity: 1;
+
 }

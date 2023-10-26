@@ -7,19 +7,21 @@ import Senai from '../../components/Senai';
 import ScrollToTop from '../../components/Scroll';
 import { Footer } from '../../components/Footer';
 import { TechWorks } from '../../components/TechWorks';
+import { Welcome } from '../../components/Welcome';
 
 export function About() {
+
     return (
         <>
             <Header />
-            <div className="container" id='aboutme'>
-                {/* <div className="tag">
-                    <p>About</p>
-                </div> */}
+
+            <div className="container">
+            <p className='title elementH'>{"<Welcome />"}</p>
+            <Welcome />
                 <p className='title elementH'>{"<AboutMe />"}</p>
             </div>
             <AboutMe />
-            <div className="container containerSkills" id='skills'>
+            <div className="container" id='skills'>
                 <p className='title elementH'>{"<MySkills />"}</p>
             </div>
             <MySkills />
