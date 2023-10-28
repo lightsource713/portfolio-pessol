@@ -2,11 +2,13 @@
 
 :root {
     --primary-light: #F3F3F3;
+    --secondary-light: #ffffff;
     --primary-dark: #242424;
     --secondary-dark: #4e4e4ebe;
     --primary-color: #0635E0;
     --secondary-color: #7429ff;
 }
+
 body{
     overflow-x: hidden;
 }
@@ -34,15 +36,15 @@ body{
 
 .form {
     border-radius: 23px;
-    background: #ffffff;
+    background: var(--secondary-light);
     box-shadow: 19px 19px 49px #ebebeb,
-        -19px -19px 49px #ffffff;
+        -19px -19px 49px var(--secondary-light);
 }
 .form:active{
     border-radius: 23px;
-    background: #ffffff;
+    background: var(--secondary-light);
     box-shadow: inset 34px 34px 69px #ebebeb,
-                inset -34px -34px 69px #ffffff;
+                inset -34px -34px 69px var(--secondary-light);
 }
 
 * {
@@ -59,15 +61,17 @@ p {
 a {
     text-decoration: none;
     color: var(--primary-dark);
+    cursor: pointer
 }
 
 a:visited {
     color: var(--primary-dark);
-
+    cursor: pointer
 }
 
 a:hover {
     color: var(--secondary-color);
+    cursor: pointer
 }
 
 .title {
@@ -110,4 +114,16 @@ a:hover {
 
 span {
     font-weight: bold;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }

@@ -1,0 +1,46 @@
+.sectionSkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 5rem;
+    
+    padding: 5rem 13rem;
+    background-color: #fff;
+}
+.skillsTag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 20%;
+    padding: 2rem 1rem;
+}
+.icon{
+    max-width: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 20%;
+    padding: 2rem 1rem;
+
+}
+.skills p {
+    margin: 1rem 20rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    text-align: left;
+    background-color: #dfdfdf;
+    width: 50%;
+    height: 2rem;
+}
+
+.ImgSkills {
+    margin-top: 27rem;
+    position:absolute;
+}

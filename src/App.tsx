@@ -9,7 +9,7 @@ export function App() {
     <>
       <div className="containerApp">
         <div className="text">
-          <p id="title">Ana Beatriz</p>
+          <p id="title"><span id="firstA">A</span>na <span id="firstA">B</span>eatriz</p>
           <p id="subtitle">Bem vindo ao meu humilde portfólio!</p>
           <NavLink to='/about'>
             <button id="start">

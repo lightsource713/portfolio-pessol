@@ -1,22 +1,3 @@
-.skills {
-    flex-direction: column;
-    justify-content: start;
-}
-
-.skills p {
-    margin: 1rem 20rem;
-    border-radius: 1rem;
-    padding: 1rem 2rem;
-    font-weight: 700;
-    text-align: left;
-    background-color: #dfdfdf;
-    width: 50%;
-    height: 2rem;
-}
-
-.skills img {
-    margin-top: 30rem;
-}
 .sectionTech{
     display: flex;
     gap: 2rem;

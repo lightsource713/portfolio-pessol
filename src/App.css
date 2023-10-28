@@ -24,14 +24,18 @@ body {
   max-width: 30rem;
   padding-top: 20%;
   cursor: pointer;
+  animation: float 4s ease-in-out infinite;
 }
 
 #title {
   font-family: "proclamate_heavy", sans-serif;
-  font-size: 8vw;
+  font-size: 7vw;
+  font-weight: bold;
   color: var(--primary-dark);
   text-align: "center";
   margin-top: 7rem;
+}#firstA{
+  font-family: "newrocker", sans-serif;
 }
 
 #subtitle {

@@ -1,18 +1,19 @@
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom'
 
 export default function Header() {
     return (
         <>
             <header className='header'>
                 <a href="/">
-                    <h1>Anabe</h1>
+                    <h1><span id='firstA'>A</span>nabe</h1>
                 </a>
                 <div className="links">
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/about">Skills</Link>
-                    <Link to="/about/contact">Contact</Link>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/about">About</NavLink>
+                    <Link to="skills">Skills</Link>
+                    <NavLink to="/about/contact">Contact</NavLink>
                 </div>
             </header>
         </>

@@ -22,3 +22,36 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'newrocker';
+  src: url('./newrocker-font/Newrocker-Gy5a.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'evilsound';
+  src: url('./evil-sound-font/EvilSound-nRM8M.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'devans';
+  src: url('./devans-font/Devans-51Z4x.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OldEnglishFive';
+  src: url('./old-english-five-font/OldEnglishFive-axyVg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zombie';
+  src: url('./zombie-holocaust-font/ZombieHolocaust-0aL4.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
