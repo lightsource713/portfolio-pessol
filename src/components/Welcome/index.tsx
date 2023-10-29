@@ -1,4 +1,4 @@
-import { Sentences } from "../../data/sentences"
+import { Sentences } from "../../assets/data/sentences"
 // import React, { useState, useEffect } from 'react';
 
 import './styles.css'

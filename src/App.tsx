@@ -2,7 +2,7 @@ import "./App.css";
 import "./assets/Fonts/fonts.css";
 import { NavLink } from 'react-router-dom';
 // import { ToggleColorMode } from './components/DarkMode'
-import {Sentences} from './data/sentences'
+import {Sentences} from './assets/data/sentences'
 
 export function App() {
   return (
