@@ -8,7 +8,7 @@
 
 ## Insights
 
-In this last year of high school at Escola SESI SENAI, I will show you everything I have produced so far. A lot of dedication was put into building this portfolio, in order to represent your best version and your authenticity. 🤍
+In this last year of high school at SESI SENAI, I will show you everything I have produced so far. A lot of dedication was put into building this portfolio, in order to represent your best version and your authenticity. 🤍
 
 
 ## 🔗 Links
