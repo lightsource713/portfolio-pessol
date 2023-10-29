@@ -1,15 +1,15 @@
 
-# Meu Portfolio em React
+# My React Portfolio
 
 <div style="display: flex; align-items: center; gap: 2rem">
-<h3>Website para colocar meus projetos do 3° ano EM - téc-integrado ADS, feito em React (Vite) + TypeScript </h3>
+<h3>Website to post my 3rd year EM projects - technical-integrated ADS, made in React (Vite) + TypeScript</h3>
 <img src="./public/bnc-terno.png" width=250>
 
 </div>
 
 ## Aprendizados
 
-Neste último ano no Ensino Médio da Escola SESI SENAI, irei lhe mostrar tudo que produzi até aqui. Na construção deste portfólio houve muita dedicação, a fim de representar sua melhor versão e sua autenticidade. 🤍
+In this last year of high school at Escola SESI SENAI, I will show you everything I have produced so far. A lot of dedication was put into building this portfolio, in order to represent your best version and your authenticity. 🤍
 
 
 ## 🔗 Links
