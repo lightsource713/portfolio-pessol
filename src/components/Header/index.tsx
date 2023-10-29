@@ -7,7 +7,7 @@ export default function Header() {
         <>
             <header className='header'>
                 <a href="/">
-                    <h1><span id='firstA'>A</span>nabe</h1>
+                    <h1><span id='secondA'>A</span>nabe</h1>
                 </a>
                 <div className="links">
                     <NavLink to="/">Home</NavLink>

@@ -1,26 +1,41 @@
-.sectionSkills{
+.sectionSkills {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     margin-top: 5rem;
-    
-    padding: 5rem 13rem;
+    gap: 2rem;
+    position: relative;
+    padding: 8rem 15rem;
     background-color: #fff;
 }
-.skillsTag{
+
+.skillsTag {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 50%;
     margin-left: 20%;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    background: #F3F3F3;
+    user-select: none;
 }
-.icon{
+
+.skillsTag p {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.icon {
     max-width: 20px;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +44,7 @@
     padding: 2rem 1rem;
 
 }
+
 .skills p {
     margin: 1rem 20rem;
     border-radius: 1rem;
@@ -37,10 +53,48 @@
     text-align: left;
     background-color: #dfdfdf;
     width: 50%;
-    height: 2rem;
+    height: 2.6rem;
 }
 
 .ImgSkills {
-    margin-top: 27rem;
-    position:absolute;
+    top: 0;
+    /* Defina a posição superior desejada */
+    left: 0;
+    margin-top: -7rem;
+    margin-left: 6.9rem;
+    filter: drop-shadow(12px 19px 17px #3f3f3f27);
+    max-width: 300px;
+    position: absolute;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  } .content span{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    text-align: left;
+    width: 85%;
+    margin-top: 0.7rem;
+    font-weight: 700;
+  }
+  .bar{
+    width: 85%;
+    border-radius: 25px;
+    height: 1rem;
+    background-color: var(--terceary-light);
+  }
+  .progress{
+    border-radius: 25px;
+    /* width: 85%; */
+    height: 1rem;
+  } 
+/* softskills */
+.f{width: 79%; background-color: var(--terceary-color);} .s{width: 85%; background-color: #7DB1FF;} .t{width: 70%; background-color: #5fb832;} .q{width: 80%; background-color: #ff7262;}
+
+/* hardskills */
+ .js{width: 89%; background-color: #fed54a;} .ts{width: 65%; background-color: #2d79c7} .html {width: 85%; background-color: #ff6a24} .css{width: 75%; background-color: #632dc7} .java{width:45%; background-color: #9ec72d} .react{width: 55%; background-color: #2bcfec}
+  

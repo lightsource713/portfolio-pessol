@@ -3,10 +3,12 @@
 :root {
     --primary-light: #F3F3F3;
     --secondary-light: #ffffff;
+    --terceary-light: #c9c9c9;
     --primary-dark: #242424;
     --secondary-dark: #4e4e4ebe;
     --primary-color: #0635E0;
     --secondary-color: #7429ff;
+    --terceary-color: #AC80FF;
 }
 
 body{
@@ -36,6 +38,7 @@ body{
 
 .form {
     border-radius: 23px;
+    cursor: pointer;
     background: var(--secondary-light);
     box-shadow: 19px 19px 49px #ebebeb,
         -19px -19px 49px var(--secondary-light);
