@@ -1,13 +1,12 @@
 
 # My React Portfolio
 
-<div style="display: flex; align-items: center; gap: 2rem">
+<div style="display: flex; align-items: center; gap: 1rem">
 <h3>Website to post my 3rd year EM projects - technical-integrated ADS, made in React (Vite) + TypeScript</h3>
 <img src="./public/bnc-terno.png" width=250>
-
 </div>
 
-## Aprendizados
+## Insights
 
 In this last year of high school at Escola SESI SENAI, I will show you everything I have produced so far. A lot of dedication was put into building this portfolio, in order to represent your best version and your authenticity. 🤍
 
