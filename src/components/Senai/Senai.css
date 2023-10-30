@@ -10,10 +10,12 @@
     font-weight: 600;
     transition: 0.5s;
     cursor: pointer;
+    
 }
 .card:hover {
     color: var(--primary-color);
-    animation: floating 1.3s;
+    /* animation: floating 1.3s; */
+    transform: scale(106%);
 }
 
 .card p {

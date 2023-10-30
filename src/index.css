@@ -11,26 +11,27 @@
     --terceary-color: #AC80FF;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
-*::-webkit-scrollbar{
+
+*::-webkit-scrollbar {
     width: 12px;
     background-color: #dfdfdf;
 }
 
 *::-webkit-scrollbar-track {
     background: #dfdfdf;
-  }
-  
-  *::-webkit-scrollbar-thumb {
+}
+
+*::-webkit-scrollbar-thumb {
     background-color: #707070;
-  }
-  
-  *::-webkit-scrollbar-thumb:hover {
+}
+
+*::-webkit-scrollbar-thumb:hover {
     background-color: var(--secondary-color);
-  }
-  
+}
+
 .elementH:hover {
     color: var(--secondary-color);
     transition: 0.5s;
@@ -43,11 +44,12 @@ body{
     box-shadow: 19px 19px 49px #ebebeb,
         -19px -19px 49px var(--secondary-light);
 }
-.form:active{
+
+.form:active {
     border-radius: 23px;
     background: var(--secondary-light);
     box-shadow: inset 34px 34px 69px #ebebeb,
-                inset -34px -34px 69px var(--secondary-light);
+        inset -34px -34px 69px var(--secondary-light);
 }
 
 * {
@@ -84,7 +86,8 @@ a:hover {
     color: #111;
     padding: 5rem 15rem;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -92,6 +95,7 @@ a:hover {
     /* padding: 7rem 0rem 0rem 0rem; */
     gap: 3rem;
 }
+
 .section {
     background-color: rgb(255, 255, 255);
     margin-top: 5rem;
@@ -121,38 +125,42 @@ span {
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(15px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(15px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 
 @keyframes floating {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(15px);
-	}
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(15px);
+    }
+
     100% {
-		transform: translatey(0px);
+        transform: translatey(0px);
     }
 }
 
 @keyframes deslize {
-    from{  
+    from {
         margin-bottom: -10%;
         opacity: 0;
     }
+
     to {
         margin-bottom: 0%;
         opacity: 1;
     }
-  }
-  
+}
