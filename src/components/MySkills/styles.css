@@ -41,8 +41,7 @@
     align-items: center;
     width: 50%;
     margin-left: 20%;
-    padding: 2rem 1rem;
-
+    transition: ease-in 2s;
 }
 
 .skills p {
@@ -80,7 +79,9 @@
     width: 85%;
     margin-top: 0.7rem;
     font-weight: 700;
+    animation: deslize 0.5s;
   }
+
   .bar{
     width: 85%;
     border-radius: 25px;

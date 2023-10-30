@@ -124,9 +124,20 @@ span {
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(-15px);
+		transform: translatey(15px);
 	}
 	100% {
 		transform: translatey(0px);
 	}
 }
+
+@keyframes deslize {
+    from{  
+        margin-top: -10%;
+    }
+    to {
+        margin-top: 0%;
+
+    }
+  }
+  
