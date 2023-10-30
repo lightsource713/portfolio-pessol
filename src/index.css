@@ -113,6 +113,7 @@ a:hover {
     margin-right: -50.8rem;
     position: absolute;
     margin-top: -24.8rem;
+    filter: drop-shadow(45px 49px 24px #79797927);
 }
 
 span {
@@ -131,13 +132,27 @@ span {
 	}
 }
 
+
+@keyframes floating {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(15px);
+	}
+    100% {
+		transform: translatey(0px);
+    }
+}
+
 @keyframes deslize {
     from{  
-        margin-top: -10%;
+        margin-bottom: -10%;
+        opacity: 0;
     }
     to {
-        margin-top: 0%;
-
+        margin-bottom: 0%;
+        opacity: 1;
     }
   }
   

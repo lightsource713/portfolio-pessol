@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom'
-import './Senai.css'
+import { NavLink } from 'react-router-dom';
+import './Senai.css';
 // import Link from 'react'
 export default function Senai() {
     return (

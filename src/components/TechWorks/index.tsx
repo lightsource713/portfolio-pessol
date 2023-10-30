@@ -1,26 +1,27 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import '../Senai/Senai.css'
 
 export function TechWorks() {
     return (
         <>
             <div className="section sectionTech">
                 <img src="./boneco-mao.png" className="sectionImg" />
-                <Link to="/school/technician">
+                <NavLink to="/school/technician">
                     <div className="card form">
                         <img src="./pbc.png" className="cardImage" />
-                        <p style={{ color: "black" }}>
+                        <p>
                             Projetos do Tecnico
                         </p>
                     </div>
-                </Link>
-                <Link to="/school/technician/choose">
+                </NavLink>
+                <NavLink to="/school/technician/choose">
                     <div className="card form">
                         <img src="./pbc.png" className="cardImage" />
-                        <p style={{ color: "black" }}>
+                        <p>
                             Projetos de Escolha
                         </p>
                     </div>
-                </Link>
+                </NavLink>
 
             </div>
 
