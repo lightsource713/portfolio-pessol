@@ -1,5 +1,5 @@
 import { Sentences } from "../../assets/data/sentences"
-// import React, { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 import './styles.css'
 
@@ -11,8 +11,6 @@ export function Welcome(){
             <p key={index}>{sentence}</p>
         ));
     }
-
-    // efeotp 
 
     return(
         <>

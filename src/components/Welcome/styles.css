@@ -9,6 +9,7 @@
 .welcomeImg {
     max-width: 390px;
     padding-left: 5%;
+    filter: drop-shadow(45px 49px 24px #79797927);
 }
 
 .sentences {
@@ -29,6 +30,8 @@
     font-size: 1.1rem;
     color: #00000099;
     position: relative;
+    /* animation: deslize 2s ease-in-out infinite; */
+
 }
 
 .sentences p::before {

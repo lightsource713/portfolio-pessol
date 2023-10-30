@@ -24,8 +24,8 @@ body {
   max-width: 30rem;
   padding-top: 20%;
   cursor: pointer;
-  animation: float 1s ease-in-out infinite;
   filter: drop-shadow(22px 29px 17px #3f3f3f27);
+  animation: float 2s ease-in-out infinite;
 }
 
 #title {
