@@ -1,7 +1,5 @@
 import './School.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
-// import "node_modules/video-react/dist/video-react.css"; // import css
-// import { Player } from 'video-react';
 
 // Math
 export function ReportagemMtm() {
@@ -16,7 +14,6 @@ export function ReportagemMtm() {
                     allow="fullscreen"
                 ></iframe>
             </div>
-            <a href="https://www.canva.com/design/DAFbThSBRCw/watch?utm_content=DAFbThSBRCw&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Podcast Matemática</a>
         </div>
     )
 }

@@ -10,9 +10,9 @@ export function Choose() {
             <Header />
 
             <div className="containerSchool">
-                <h1 className='title'>Projetos Extra</h1>
+                <h1 className='title'>Projetos Pessoais</h1>
                 <div className="section schoolSbj">
-                    <img src="../../../../pbc.png" className="sectionImg" id='pbc' />
+                    <img src="../../../../pbc.png" className="sbjImg" id='pbc' />
                     <h2 className='subtitle'>
                         Artigo Científico <br />
                         <span>Desenvolvimento de uma plataforma calculadora para análise dos níveis de ruído rodoviário</span>
