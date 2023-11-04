@@ -6,6 +6,7 @@ export default function MySkills() {
     const [visibleSoft, setVisibleSoft] = useState(false);
     const [visibleHard, setVisibleHard] = useState(false);
 
+    
     const toggleVisibility = () => {
         setVisibleSoft(!visibleSoft);
         setVisibleHard(false);
@@ -25,7 +26,7 @@ export default function MySkills() {
                     <img src="./arrow-down.svg" className='icon' />
                 </div>
                 {visibleSoft && (
-                    <div className="content">
+                    <div className='content'>
                         <span>Comunicação</span>
                         <div className="bar">
                             <div className="progress f"></div>

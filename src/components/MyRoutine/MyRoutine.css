@@ -12,6 +12,10 @@
     width: 100%;
     border-spacing: 1rem; 
     text-align: center;
+    animation: appear 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+    transition: 0.5s;
 }
 th{
     padding: 1rem;

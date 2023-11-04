@@ -30,9 +30,9 @@ export function Tech() {
             </div>|
                 </div> */}
             <div className="containerSchool">
-                <h1 className='title'>Técnico em Análise e Desenvolvimento de Sistemas</h1>
+                <h1 className='title'>Análise e Desenvolvimento<span> de Sistemas</span></h1>
                 <div className="section schoolSbj">
-                    <img src="../../../../pbc.png" className="sectionImg" id='pbc' />
+                    <img src="../../../../pbc.png" className="sbjImg" id='pbc' />
                     <h2 className='subtitle'>
                         Modelagem e programação de aplicativos <br />
                         <span>

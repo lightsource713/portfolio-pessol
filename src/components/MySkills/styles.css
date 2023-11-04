@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   gap: 2rem;
   position: relative;
   padding: 8rem 15rem;
@@ -21,6 +21,10 @@
   border-radius: 5px;
   background: #F3F3F3;
   user-select: none;
+  animation: appear 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+  transition: 0.5s;
 }
 
 .skillsTag p {
@@ -82,14 +86,24 @@
   width: 85%;
   margin-top: 0.7rem;
   font-weight: 700;
-  animation: deslize 0.5s;
+  animation: deslize 0.5s ease-in-out;
 }
+.active{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: 0.5s;
+  animation: deslize-fechar 0.5s ease-in-out;
 
+}
 .bar {
   width: 85%;
   border-radius: 25px;
   height: 1rem;
   background-color: var(--terceary-light);
+  animation: deslize 0.5s ease-in-out;
 }
 
 .progress {

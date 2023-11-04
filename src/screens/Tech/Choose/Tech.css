@@ -16,7 +16,7 @@
 }
 .titleTech{
     text-align: center;
-    padding: 4rem 0rem 5rem 0rem;
+    padding: 4rem 0rem 5rem 20rem;
     font-weight: bold;
     font-family: 'Poppins';
     font-size: 35px;
@@ -48,7 +48,11 @@
     max-height: 150px;
     padding: 1rem;
 }
-#pbc{
-    margin-bottom: 49rem;
+.sbjImg{
+    top: 0;
+    right: 0;
+    margin-top: 10rem;
+    filter: drop-shadow(12px 19px 17px #3f3f3f27);
     max-width: 300px;
+    position: absolute;
 }
