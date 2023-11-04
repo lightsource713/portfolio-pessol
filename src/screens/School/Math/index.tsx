@@ -10,18 +10,21 @@ export function Math() {
             <Header />
             <div className="containerSchool">
                 <h1 className='title'>Matemática <span> e suas Tecnologias</span></h1>
-                <div className="section schoolSbj">
-                    <img src="../../../../bnc-math.png" className="sectionImg" />
-                    <h2 className='subtitle'>
-                        Entrevista sobre profissões
-                        <ReportagemMtm />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Filme Quebrando a banca
-                        <AtvFilm />
-                    </h2>
+                <div className="sectionWorks">
+
+                    <div className="schoolSbj">
+                        {/* <img src="../../../../bnc-math.png" className="sectionImg" /> */}
+                        <h2 className='subtitle'>
+                            Entrevista sobre profissões
+                            <ReportagemMtm />
+                        </h2>
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Filme Quebrando a banca
+                            <AtvFilm />
+                        </h2>
+                    </div>
                 </div>
             </div>
             <Footer />

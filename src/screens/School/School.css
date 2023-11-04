@@ -21,11 +21,16 @@
     justify-content: center;
     font-family: 'Poppins';
     align-items: center;
-    width: 100%;
+    width: 50%;
     text-align: left;
-} #lng{max-width: 16rem;
+} 
+#lng{
+    max-width: 16rem;
     margin-bottom: 68rem;
-}#his{margin-bottom: 162rem;}
+}
+#his{
+    margin-bottom: 162rem;
+}
 
 .subtitle{
     font-weight: 600;
@@ -64,4 +69,8 @@
 }
 .text{
     color: black;
+}
+.sectionWorks{
+    display: flex;
+    
 }
