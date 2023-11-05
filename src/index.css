@@ -56,7 +56,7 @@ body {
     margin: 0;
     padding: 0;
     scrollbar-width: thin;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 p {

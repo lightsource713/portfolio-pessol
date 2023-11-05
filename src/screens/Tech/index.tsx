@@ -31,77 +31,71 @@ export function Tech() {
                 </div> */}
             <div className="containerSchool">
                 <h1 className='title'>Análise e Desenvolvimento<span> de Sistemas</span></h1>
-                <div className="section schoolSbj">
-                    <img src="../../../../pbc.png" className="sbjImg" id='pbc' />
-                    <h2 className='subtitle'>
-                        Modelagem e programação de aplicativos <br />
-                        <span>
-                            Processo de Desenvolvimento de Software
-                        </span>
-                        <XP />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        <span>
-                            Diagramas e telas da Situação de Aprendizaem
-                        </span>
-                        <SA />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        <span>
-                            Teoria da POO
-                        </span>
-                        <POO />
-                    </h2>
-                </div>
-                {/* Charles */}
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Implantação e Manutenção de Sistemas <br />
-                        <span>
-                            Pesquisa de Virtualizadores
-                        </span>
-                        <VM />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        <span>Atividade Prática</span>
-                        <Print />
-                    </h2>
-                </div>
+                <div className="sectionWorks">
+                    <div className="schoolSbj">
+                        {/* <img src="../../../../pbc.png" className="sbjImg" id='pbc' /> */}
+                        <h2 className='subtitle'>
+                            Modelagem e programação de aplicativos <br />
+                        </h2>
+                            <XP />
+                            <span>Processo de Desenvolvimento de Software</span>
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                        </h2>
+                            <SA />
+                            <span>Diagramas e telas da Situação de Aprendizaem</span>
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                        </h2>
+                            <POO />
+                            <span>Teoria da POO</span>
+                    </div>
+                    {/* Charles */}
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Implantação e Manutenção de Sistemas <br />
+                        </h2>
+                            <VM />
+                            <span>Pesquisa de Virtualizadores</span>
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                        </h2>
+                            <Print />
+                            <span>Atividade Prática</span>
+                    </div>
 
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Desenvolvimento, Testes e Banco de Dados <br />
-                        <span>APIGitHub</span>
-                        <APIGit />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Desenvolvimento, Testes e Banco de Dados <br />
-                        <span>APIGitHub</span>
-                        <CanvaAPI />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        <span>Modelo Físico Banco de Dados</span>
-                        <FisicBD />
-                    </h2>
-                </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Desenvolvimento, Testes e Banco de Dados <br />
+                        </h2>
+                            <APIGit />
+                            <span>APIGitHub</span>
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Desenvolvimento, Testes e Banco de Dados <br />
+                        </h2>
+                            <CanvaAPI />
+                            <span>APIGitHub</span>
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                        </h2>
+                            <FisicBD />
+                            <span>Modelo Físico Banco de Dados</span>
+                    </div>
 
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        <span>Retomada Banco de Dados</span>
-                        <RetakeBD />
-                    </h2>
-                </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                        </h2>
+                            <RetakeBD />
+                            <span>Retomada Banco de Dados</span>
+                    </div>
 
+                </div>
             </div>
             <ScrollToTop />
             <Footer />

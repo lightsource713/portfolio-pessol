@@ -1,7 +1,7 @@
+import '../School.css'
 import { Footer } from '../../../components/Footer'
 import { ReportagemMtm, AtvFilm } from '../iframes'
 import Header from '../../../components/Header'
-import '../School.css'
 import ScrollToTop from '../../../components/Scroll'
 
 export function Math() {
@@ -16,14 +16,14 @@ export function Math() {
                         {/* <img src="../../../../bnc-math.png" className="sectionImg" /> */}
                         <h2 className='subtitle'>
                             Entrevista sobre profissões
-                            <ReportagemMtm />
                         </h2>
+                        <ReportagemMtm />
                     </div>
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
                             Filme Quebrando a banca
-                            <AtvFilm />
                         </h2>
+                        <AtvFilm />
                     </div>
                 </div>
             </div>

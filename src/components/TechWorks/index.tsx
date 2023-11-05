@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import '../Senai/Senai.css'
 
 export function TechWorks() {
+    
     return (
         <>
             <div className="section sectionTech">

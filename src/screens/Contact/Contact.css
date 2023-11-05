@@ -5,7 +5,7 @@
     max-width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0rem;
+    padding: 5rem 0rem;
 }
 .contact a{
     display: flex;
@@ -17,5 +17,8 @@
     transition: 0.5s;
 }
 .contact a:hover{
-    transform: scale(1.2);
+    transform: scale(1.2); 
+}
+.containerContact{
+    padding: 5rem 2rem;
 }

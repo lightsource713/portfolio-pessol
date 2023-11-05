@@ -10,24 +10,27 @@ export function History() {
             <Header />
             <div className="containerSchool">
                 <h1 className='title'>Ciências Humanas <span> e suas Tecnologias</span></h1>
-                <div className="section schoolSbj">
-                    <img src="../../../../bnc-thinking.png" className="sectionImg" id='his' />
-                    <h2 className='subtitle'>
-                        Infográfico Era Vargas
+                <div className="sectionWorks">
+
+                    <div className="schoolSbj">
+                        {/* <img src="../../../../bnc-thinking.png" className="sectionImg" id='his' /> */}
+                        <h2 className='subtitle'>
+                            Infográfico Era Vargas
+                        </h2>
                         <Vargas />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Filme Totalitarismo
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Filme Totalitarismo
+                        </h2>
                         <OlgaFilm />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Os meios de comunicação na virada do século XX
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Os meios de comunicação na virada do século XX
+                        </h2>
                         <SecXX />
-                    </h2>
+                    </div>
                 </div>
             </div>
             <ScrollToTop />

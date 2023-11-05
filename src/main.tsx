@@ -4,7 +4,7 @@ import { App } from './App.tsx'
 import { Home } from './screens/Home'
 import { About } from './screens/About'
 import { ContactPage } from './screens/Contact'
-import { School } from './screens/School'
+// import { School } from './screens/School'
 // subjects
 import { Math } from "./screens/School/Math";
 import { Languages } from "./screens/School/Languages";
@@ -38,10 +38,10 @@ const router = createBrowserRouter(
       path: '/about/contact',
       element: <ContactPage />
     },
-    {
-      path: '/school',
-      element: <School />,
-    },
+    // {
+    //   path: '/school',
+    //   element: <School />,
+    // },
     {
       path: '/school/math',
       element: <Math />,

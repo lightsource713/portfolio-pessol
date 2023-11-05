@@ -20,7 +20,7 @@ export default function MySkills() {
     return (
         <>
             <div className="sectionSkills">
-                <img src="./boneco-cruzado.png" className="ImgSkills" />
+                <img src="./boneco-cruzado.png" className="ImgSkills" /> 
                 <div className="skillsTag form" onClick={toggleVisibility}>
                     <p>Soft Skills</p>
                     <img src="./arrow-down.svg" className='icon' />

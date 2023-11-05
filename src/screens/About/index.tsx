@@ -18,7 +18,7 @@ export function About() {
             <div className="container">
             <p className='title elementH'>{"<Welcome />"}</p>
             <Welcome />
-                <p className='title elementH'>{"<AboutMe />"}</p>
+                <p className='title elementH' id="about">{"<AboutMe />"}</p>
             </div>
             <AboutMe />
             <div className="container" id='skills'>

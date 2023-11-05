@@ -10,24 +10,27 @@ export function Science() {
             <Header />
             <div className="containerSchool">
                 <h1 className='title'>Ciências da Natureza<span> e suas Tecnologias</span></h1>
-                <div className="section schoolSbj">
-                    <img src="../../../../bnc-science.png" className="sectionImg sci" />
-                    <h2 className='subtitle'>
-                        Prática - Experimento Eletroimã
-                        <Pratice />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        Folder - Como diminuir o lixo
+                <div className="sectionWorks">
+                    
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Folder - Como diminuir o lixo
+                        </h2>
                         <Folder />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                        MindMap - Mapa Citologia
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            MindMap - Mapa Citologia
+                        </h2>
                         <MindMap />
-                    </h2>
+                    </div>
+                    <div className="schoolSbj">
+        
+                        <h2 className='subtitle'>
+                            Prática - Experimento Eletroimã
+                        </h2>
+                        <Pratice />
+                    </div>
                 </div>
             </div>
             <ScrollToTop />

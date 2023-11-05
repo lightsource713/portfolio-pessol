@@ -77,8 +77,8 @@ export function Modernism() {
 export function Magazine() {
     return (
         <div className="iframe form">
-            <div style={{ position: 'relative', width: '100%', height: 0, paddingTop: '141.4286%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
-                <iframe
+            <div style={{ position: 'relative', width: '100%', height: 0, paddingTop: '141.4286%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '0em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
+                <iframe className="iframeDocs form"
                     loading="lazy"
                     style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, border: 'none', padding: 0, margin: 0 }}
                     src="https://www.canva.com/design/DAFxwbDoQ1g/view?embed"
@@ -214,7 +214,7 @@ export function Vargas() {
 
 export function XP() {
     return (
-        <div className="iframe">
+        <div className="iframe form">
             <div className="form" style={{ position: 'relative', width: '100%', height: 0, paddingTop: '56.2500%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
                 <iframe title="Canva Embed" loading="lazy" style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, border: 'none', padding: 0, margin: 0 }} src="https://www.canva.com/design/DAFoboWseUM/view?embed" allowFullScreen={true} allow="fullscreen"></iframe>
             </div>
@@ -226,7 +226,7 @@ export function XP() {
 
 export function SA() {
     return (
-        <div className="iframe">
+        <div className="iframe form">
             <div className="form" style={{ position: 'relative', width: '100%', height: 0, paddingTop: '56.2500%', paddingBottom: 0, boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden', borderRadius: '8px', willChange: 'transform' }}>
                 <iframe
                     title="Canva Embed"

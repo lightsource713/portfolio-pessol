@@ -10,24 +10,27 @@ export function Languages() {
             <Header />
             <div className="containerSchool">
                 <h1 className='title'>Linguagens <span> e suas Tecnologias</span></h1>
-                <div className="section schoolSbj">
-                    <img src="../../../../bnc-book2.png" className="sectionImg" id='lng' />
-                    <h2 className='subtitle'>
-                    Resenhas Críticas
-                    <Text />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                    Modernismo: Sala de aula invertida
-                    <Modernism />
-                    </h2>
-                </div>
-                <div className="section schoolSbj">
-                    <h2 className='subtitle'>
-                    Revista Literária: Obras da UFSC 2024
-                    <Magazine />
-                    </h2>
+
+                <div className="sectionWorks">
+                    <div className="schoolSbj">
+                        {/* <img src="../../../../bnc-book2.png" className="sectionImg" id='lng' /> */}
+                        <h2 className='subtitle'>
+                            Resenhas Críticas
+                        </h2>
+                        <Text />
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Modernismo: Sala de aula invertida
+                        </h2>
+                        <Modernism />
+                    </div>
+                    <div className="schoolSbj">
+                        <h2 className='subtitle'>
+                            Revista Literária: Obras da UFSC 2024
+                        </h2>
+                        <Magazine />
+                    </div>
                 </div>
             </div>
             <ScrollToTop />
