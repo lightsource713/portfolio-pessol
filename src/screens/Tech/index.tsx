@@ -31,7 +31,7 @@ export function Tech() {
                 </div> */}
             <div className="containerSchool">
                 <h1 className='title'>Análise e Desenvolvimento<span> de Sistemas</span></h1>
-                <div className="sectionWorks">
+                <div className="sectionWorks Tech">
                     <div className="schoolSbj">
                         {/* <img src="../../../../pbc.png" className="sbjImg" id='pbc' /> */}
                         <h2 className='subtitle'>
