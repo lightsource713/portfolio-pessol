@@ -1,12 +1,13 @@
 import './styles.css'
 import { useState } from 'react'
+import { Sentences } from '../../assets/data/sentences'
 
 export default function MySkills() {
 
     const [visibleSoft, setVisibleSoft] = useState(false);
     const [visibleHard, setVisibleHard] = useState(false);
 
-    
+
     const toggleVisibility = () => {
         setVisibleSoft(!visibleSoft);
         setVisibleHard(false);
@@ -20,7 +21,12 @@ export default function MySkills() {
     return (
         <>
             <div className="sectionSkills">
-                <img src="./boneco-cruzado.png" className="ImgSkills" /> 
+                <div className="imgContainer">
+                    <img src="./boneco-cruzado.png" className="ImgSkills" />
+                    <span className="balaoSkills">
+                        {Sentences[5]}
+                    </span>
+                </div>
                 <div className="skillsTag form" onClick={toggleVisibility}>
                     <p>Soft Skills</p>
                     <img src="./arrow-down.svg" className='icon' />
@@ -51,34 +57,20 @@ export default function MySkills() {
                     <img src="./arrow-down.svg" className='icon' />
                 </div>
                 {visibleHard && (
-                     <div className="content">
-                     <span>JavaScript</span>
-                     <div className="bar">
-                         <div className="progress js"></div>
-                     </div>
-                     <span>
-                         TypeScript</span>
-                     <div className="bar">
-                         <div className="progress ts"></div>
-                     </div>
-                     <span>HTML</span>
-                     <div className="bar">
-                         <div className="progress html"></div>
-                     </div>
-                     <span>CSS</span>
-                     <div className="bar">
-                         <div className="progress css"></div>
-                     </div>
-                     <span>Java</span>
-                     <div className="bar">
-                         <div className="progress java"></div>
-                     </div>
-                     <span>React</span>
-                     <div className="bar">
-                         <div className="progress react"></div>
-                     </div>
-                 </div>
+                    <div className="content">
+                         <img
+  src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,vite,vercel,figma,bootstrap,mui" />
+                       <img
+  src="https://skillicons.dev/icons?i=nodejs,java,spring,py,mysql,postgres,git,github,linux" />
+
+  <a href="" className='btn'>
+                            <p>Ver projetos</p>                        
+                        </a>
+                    </div>
                 )}
+                {/* <span id="seta">
+                    <img src="./arrow-down.svg" className='icon' />
+                     </span> */}
             </div>
         </>
     )

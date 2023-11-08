@@ -3,7 +3,7 @@
     width: 100%;
     align-items: start;
     justify-content: center;
-    padding-bottom: 10rem; */
+    padding-bottom: 10rem; 
 }
 
 .welcomeImg {
@@ -31,6 +31,7 @@
     color: #00000099;
     position: relative;
     /* animation: deslize 2s ease-in-out infinite; */
+    filter: drop-shadow(12px 2px 11px #3f3f3f27);
 
 }
 
