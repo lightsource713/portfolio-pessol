@@ -1,6 +1,7 @@
 import './styles.css'
 import { useState } from 'react'
 import { Sentences } from '../../assets/data/sentences'
+import { NavLink } from 'react-router-dom';
 
 export default function MySkills() {
 
@@ -63,9 +64,9 @@ export default function MySkills() {
                        <img
   src="https://skillicons.dev/icons?i=nodejs,java,spring,py,mysql,postgres,git,github,linux" />
 
-  <a href="" className='btn'>
+  <NavLink to="/school/technician" className='btn'>
                             <p>Ver projetos</p>                        
-                        </a>
+                        </NavLink>
                     </div>
                 )}
                 {/* <span id="seta">

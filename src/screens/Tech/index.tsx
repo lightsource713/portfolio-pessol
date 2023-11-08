@@ -81,12 +81,12 @@ export function Tech() {
                             <CanvaAPI />
                             <span>APIGitHub</span>
                     </div>
-                    <div className="schoolSbj">
+                    {/* <div className="schoolSbj">
                         <h2 className='subtitle'>
                         </h2>
                             <FisicBD />
                             <span>Modelo Físico Banco de Dados</span>
-                    </div>
+                    </div> */}
 
                     <div className="schoolSbj">
                         <h2 className='subtitle'>

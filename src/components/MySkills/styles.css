@@ -129,7 +129,7 @@
   justify-content: center;
   gap: 0.5rem;
   transition: 0.5s;
-  animation: deslize-fechar 0.5s ease-in-out;
+  /* animation: deslize-fechar 0.5s ease-in-out; */
 
 }
 .bar {
@@ -229,3 +229,20 @@
   /* box-shadow: 20px 20px 60px #414141, */
   /* -20px -20px 60px #242424; */
 } 
+.btn p{
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #000000ce;
+  font-size: 1.2vw;
+}
+
+.btn:active {
+  background: #ffffff;
+  box-shadow: inset 20px 20px 60px #d9d9d9,
+    inset -20px -20px 60px #ffffff;
+}
+
+.btn:hover {
+  background: linear-gradient(-45deg, #ffffff, #e6e6e6);
+  opacity: 0.7;
+}
