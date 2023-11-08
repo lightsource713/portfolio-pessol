@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 
 export default function Header() {
+    
     return (
         <>
             <header className='header'>
