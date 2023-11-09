@@ -23,7 +23,7 @@
   user-select: none;
   animation: appear 1ms ease-in-out;
   animation-timeline: view();
-  animation-range: cover 0% cover 50%;
+  /* animation-range: cover 0% cover 50%; */
   transition: 0.5s;
 }
 
@@ -245,4 +245,8 @@
 .btn:hover {
   background: linear-gradient(-45deg, #ffffff, #e6e6e6);
   opacity: 0.7;
+}
+
+.content img{
+  animation: deslize 0.5s ease-in-out;
 }

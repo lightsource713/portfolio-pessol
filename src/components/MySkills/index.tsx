@@ -59,13 +59,13 @@ export default function MySkills() {
                 </div>
                 {visibleHard && (
                     <div className="content">
-                         <img
-  src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,vite,vercel,figma,bootstrap,mui" />
-                       <img
-  src="https://skillicons.dev/icons?i=nodejs,java,spring,py,mysql,postgres,git,github,linux" />
+                        <img
+                            src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,vite,vercel,figma,bootstrap,mui" />
+                        <img
+                            src="https://skillicons.dev/icons?i=nodejs,java,spring,py,mysql,postgres,git,github,linux" />
 
-  <NavLink to="/school/technician" className='btn'>
-                            <p>Ver projetos</p>                        
+                        <NavLink to="/school/technician" className='btn'>
+                            <p>Ver projetos</p>
                         </NavLink>
                     </div>
                 )}
