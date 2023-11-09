@@ -5,6 +5,7 @@ import Header from '../../../components/Header'
 import ScrollToTop from '../../../components/Scroll'
 
 export function Math() {
+    scrollTo(0, 0)
     return (
         <>
             <Header />

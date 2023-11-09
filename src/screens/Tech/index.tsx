@@ -6,6 +6,7 @@ import { XP, SA, POO, VM, APIGit, FisicBD, RetakeBD, Print, CanvaAPI } from '../
 import ScrollToTop from '../../components/Scroll'
 
 export function Tech() {
+    scrollTo(0, 0)
     return (
         <>
             <Header />

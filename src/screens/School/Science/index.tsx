@@ -5,6 +5,7 @@ import '../School.css'
 import { Pratice, Folder, MindMap } from '../iframes'
 
 export function Science() {
+    scrollTo(0, 0)
     return (
         <>
             <Header />

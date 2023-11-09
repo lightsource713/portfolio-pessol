@@ -5,6 +5,7 @@ import '../School.css'
 import ScrollToTop from '../../../components/Scroll'
 
 export function Languages() {
+    scrollTo(0, 0)
     return (
         <>
             <Header />

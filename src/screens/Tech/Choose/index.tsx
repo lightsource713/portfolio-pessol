@@ -5,6 +5,7 @@ import { TS, IC, SiteIC } from '../../School/iframes'
 import ScrollToTop from '../../../components/Scroll'
 
 export function Choose() {
+    scrollTo(0, 0)
     return (
         <>
             <Header />
