@@ -2,7 +2,7 @@ import './Tech.css'
 import Header from '../../components/Header'
 import { Footer } from '../../components/Footer'
 // import { NavLink } from 'react-router-dom'
-import { XP, SA, POO, VM, APIGit, FisicBD, RetakeBD, Print, CanvaAPI } from '../School/iframes'
+import { XP, SA, POO, VM, APIGit, RetakeBD, Print, CanvaAPI } from '../School/iframes'
 import ScrollToTop from '../../components/Scroll'
 
 export function Tech() {
