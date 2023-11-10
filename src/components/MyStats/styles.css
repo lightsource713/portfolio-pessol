@@ -1,9 +1,9 @@
 .statsImg{
     left: 0;
-    margin-top: -25vh;
+    margin-top: -35vh;
     margin-left: 1vw;
-    max-width: 50vw;
-    max-height: 50vh;
+    max-width: 52vw;
+    max-height: 52vh;
     position: absolute;
     filter: drop-shadow(45px 49px 24px #79797927);
 }
