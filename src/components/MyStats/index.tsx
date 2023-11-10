@@ -12,9 +12,9 @@ export default function MyStats() {
         avatar_url: string;
     }
 
-    const [nomeUsuario, setNomeUsuario] = useState<string>("anabmartins");
+    const [nomeUsuario] = useState<string>("anabmartins");
     const [userData, setUserData] = useState<UserData | null>(null);
-    const [error, setError] = useState<string>("");
+    const [setError] = useState<string>("");
 
     useEffect(() => {
         if (nomeUsuario) {
