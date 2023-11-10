@@ -5,6 +5,7 @@ import MySkills from '../../components/MySkills';
 import MyRoutine from '../../components/MyRoutine';
 import Senai from '../../components/Senai';
 import ScrollToTop from '../../components/Scroll';
+import MyStats from '../../components/MyStats';
 import { Footer } from '../../components/Footer';
 import { TechWorks } from '../../components/TechWorks';
 import { Welcome } from '../../components/Welcome';
@@ -25,6 +26,10 @@ export function About() {
                 <p className='title elementH'>{"<MySkills />"}</p>
             </div>
             <MySkills />
+            <div className="container">
+                <p className='title elementH'>{"<MyStats />"}</p>
+            </div>
+            <MyStats />
             <div className="container containerRoutine">
                 <p className='title elementH'>{"<MyRoutine />"}</p>
             </div>

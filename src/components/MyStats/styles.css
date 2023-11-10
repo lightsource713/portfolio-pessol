@@ -1,0 +1,51 @@
+.statsImg{
+    left: 0;
+    margin-top: -25vh;
+    margin-left: 1vw;
+    max-width: 50vw;
+    max-height: 50vh;
+    position: absolute;
+    filter: drop-shadow(45px 49px 24px #79797927);
+}
+.statSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+.statSection p{
+    padding: 0rem 0rem;
+    margin: 0;
+}
+.userData{
+    display: flex;
+    gap: 1.2vw;
+    margin: 2vh 0vw;
+}
+.userData p{
+    background-color: var(--primary-light);
+    padding: 1vh 3vh;
+    border-radius: 15px;
+    color: var(--secondary-dark);
+    transition: 0.6s;
+}
+.userData p:hover{
+    scale: 1.05 ;
+    cursor: pointer;
+    background-color: var(--secondary-light);
+
+}
+.gitImg{
+    max-width: 10vh;
+    max-height: 10vh;
+    border-radius: 100%;
+    border: solid 0.3vw var(--primary-light);
+    transition: 0.6s;
+}
+.gitImg:hover{
+    scale: 1.2;
+}
+.gitstats{
+    display: flex;
+    gap: 1vw;
+}
