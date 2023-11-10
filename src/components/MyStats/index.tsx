@@ -14,7 +14,6 @@ export default function MyStats() {
 
     const [nomeUsuario] = useState<string>("anabmartins");
     const [userData, setUserData] = useState<UserData | null>(null);
-    const [setError] = useState<string>("");
 
     useEffect(() => {
         if (nomeUsuario) {
@@ -24,7 +23,7 @@ export default function MyStats() {
                     setUserData(data);
                 })
                 .catch((error) => {
-                    setError('Ocorreu um erro na solicitação: ' + error);
+                    console.log('Ocorreu um erro na solicitação: ' + error);
                 });
         }
     }, [nomeUsuario]);
