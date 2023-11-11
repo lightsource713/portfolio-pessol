@@ -1,13 +1,34 @@
 import './styles.css'
 import { useState } from 'react'
 import { Sentences } from '../../assets/data/sentences'
-import { NavLink } from 'react-router-dom';
+//icons
+import html from "../../assets/icons/html.svg"
+import css from "../../assets/icons/css.svg"
+import bootstrap from "../../assets/icons/bootstrap.svg"
+import figma from "../../assets/icons/figma.svg"
+import node from "../../assets/icons/nodejs.svg"
+import vercel from "../../assets/icons/vercel.svg"
+import next from "../../assets/icons/next.svg"
+import linux from "../../assets/icons/linux.svg"
+import windows from "../../assets/icons/windows.svg"
+import js from "../../assets/icons/javascript.svg"
+import vite from "../../assets/icons/Group-1.svg"
+import ts from "../../assets/icons/Group.svg"
+import java from "../../assets/icons/java.svg"
+import git from "../../assets/icons/git.svg"
+import spring from "../../assets/icons/spring.svg"
+import mui from "../../assets/icons/mui.svg"
+import react from "../../assets/icons/react.svg"
+import pgadmin from "../../assets/icons/pgsql.svg"
+
+import CloseIcon from '@mui/icons-material/Close';
+import { ProjectsModal } from '../Modal'
 
 export default function MySkills() {
 
     const [visibleSoft, setVisibleSoft] = useState(false);
     const [visibleHard, setVisibleHard] = useState(false);
-
+    const [visibleModal, setVisibleModal] = useState(false);
 
     const toggleVisibility = () => {
         setVisibleSoft(!visibleSoft);
@@ -17,6 +38,11 @@ export default function MySkills() {
     const toggleVisibilityHard = () => {
         setVisibleHard(!visibleHard);
         setVisibleSoft(false);
+    };
+
+    const toggleVisibilityModal = () => {
+        if (!visibleModal) { setVisibleModal(true); }
+        else setVisibleModal(false)
     };
 
     return (
@@ -59,14 +85,37 @@ export default function MySkills() {
                 </div>
                 {visibleHard && (
                     <div className="content">
-                        <img
-                            src="https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,vite,vercel,figma,bootstrap,mui" />
-                        <img
-                            src="https://skillicons.dev/icons?i=nodejs,java,spring,py,mysql,postgres,git,github,linux" />
-
-                        <NavLink to="/school/technician" className='btn'>
+                        <div className="iconsHard">
+                            <img src={js} />
+                            <img src={ts} />
+                            <img src={react} />
+                            <img src={css} />
+                            <img src={html} />
+                            <img src={git} />
+                            <img src={figma} />
+                            <img src={bootstrap} />
+                            <img src={mui} />
+                            <img src={node} />
+                            <img src={spring} />
+                            <img src={java} />
+                            <img src={linux} />
+                            <img src={windows} />
+                            <img src={pgadmin} />
+                            <img src={vite} />
+                            <img src={next} />
+                            <img src={vercel} />
+                        </div>
+                        <div onClick={toggleVisibilityModal} className='btn'>
                             <p>Ver projetos</p>
-                        </NavLink>
+                        </div>
+                        {visibleModal && (
+                            <div className="modalContainer">
+                                <button onClick={toggleVisibilityModal}>
+                                    <CloseIcon className='close' />
+                                </button>
+                                <ProjectsModal />
+                            </div>
+                        )}
                     </div>
                 )}
                 {/* <span id="seta">

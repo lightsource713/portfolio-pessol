@@ -145,7 +145,19 @@ span {
         transform: translatey(0px);
     }
 }
+@keyframes floating2 {
+    0% {
+        transform: translatey(0px);
+    }
 
+    50% {
+        transform: translatey(2px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
 @keyframes deslize {
     from {
         margin-bottom: -10%;
@@ -176,5 +188,14 @@ span {
     }
     to{
         opacity: 1;
+    }
+}
+
+@keyframes appear2 {
+    from{
+        margin-top: -10%;
+    }
+    to{
+        margin-top: 0%;
     }
 }

@@ -109,7 +109,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.5vh;
   transition: 0.5s;
 }
 
@@ -168,42 +168,6 @@
   background-color: #7DE8FF;
 }
 
-/* hardskills */
-.js {
-  width: 89%;
-  background-color: #fed54a;
-}
-
-.ts {
-  width: 65%;
-  background-color: #4d9ef0
-}
-
-.html {
-  width: 85%;
-  background-color: #ff6a24
-}
-
-.css {
-  width: 75%;
-  background-color: #9842df
-}
-
-.java {
-  width: 45%;
-  background-color: #addb2e
-}
-
-.react {
-  width: 55%;
-  background-color: #2bcfec
-}
-
-.reactnative {
-  width: 65%;
-  background-color: #2b8bec
-}
-
 
 #seta{
   position: absolute;
@@ -228,6 +192,7 @@
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   /* box-shadow: 20px 20px 60px #414141, */
   /* -20px -20px 60px #242424; */
+  transition: 0.2s;
 } 
 .btn p{
   font-family: "Poppins";
@@ -240,14 +205,62 @@
   background: #ffffff;
   box-shadow: inset 20px 20px 60px #d9d9d9,
     inset -20px -20px 60px #ffffff;
-    opacity: 0.7;
-  }
+    opacity: 0.5;
+}
 
 .btn:hover {
   background: linear-gradient(-45deg, #ffffff, #e6e6e6);
+  scale: 0.98;
 }
-
-.content img{
-  animation: deslize 0.5s ease-in-out;
-  transition: 0.6s;
+.iconsHard{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw 0.8vh;
+  max-width:100%;
+}
+.iconsHard img{
+  animation: floating2 2s infinite, deslize 0.6s ease-in-out;
+  transition: 0.7s;
+  width: 4vh;
+  max-height: 4vh;
+  background-color: #e2e2e299;
+  border-radius: 1rem;
+  padding: 0.6rem;
+}
+.iconsHard img:hover{
+  scale: 1.2;
+  cursor: pointer;
+  background: none;
+  border-radius: 0rem;
+}
+.modalContainer{
+  padding: 2rem 5rem;
+  width: 60%;
+  height: 70%;
+  animation: appear 0.19s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-color: #696969f3;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 31px 31px 61px #ededed,
+      -31px -31px 61px #ffffff;
+}
+.close{
+  border: none;
+    right: 1rem;
+    top: 1rem;
+    position: fixed;
+    cursor: pointer;
+    background: none;
+    padding: 0.6vw;
 }
