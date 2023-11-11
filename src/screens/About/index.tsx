@@ -9,7 +9,7 @@ import MyStats from '../../components/MyStats';
 import { Footer } from '../../components/Footer';
 import { TechWorks } from '../../components/TechWorks';
 import { Welcome } from '../../components/Welcome';
-import { DarkMode } from '../../components/DarkMode';
+// import { DarkMode } from '../../components/DarkMode';
 
 export function About() {
 
