@@ -20,6 +20,7 @@ import spring from "../../assets/icons/spring.svg"
 import mui from "../../assets/icons/mui.svg"
 import react from "../../assets/icons/react.svg"
 import pgadmin from "../../assets/icons/pgsql.svg"
+import tailwind from "../../assets/icons/tailwind.svg"
 
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsModal } from '../Modal'
@@ -92,10 +93,11 @@ export default function MySkills() {
                             <img src={css} />
                             <img src={html} />
                             <img src={git} />
+                            <img src={node} />
                             <img src={figma} />
                             <img src={bootstrap} />
+                            <img src={tailwind} />
                             <img src={mui} />
-                            <img src={node} />
                             <img src={spring} />
                             <img src={java} />
                             <img src={linux} />
