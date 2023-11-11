@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+// ;import { useTheme } from '../../hook/useTheme';
+
 import './styles.css'
 
 export default function MyStats() {
@@ -14,10 +16,14 @@ export default function MyStats() {
 
     const [nomeUsuario] = useState<string>("anabmartins");
     const [userData, setUserData] = useState<UserData | null>(null);
-    
-    const statsUrl = `https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${nomeUsuario}&theme=default`;
+    // const [theme] = useTheme('dark');
+    const themeForUrl = 
+    // theme === 'light' ? 
+    'default'
+    //  : theme;
+    const statsUrl = `https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${nomeUsuario}&theme=${themeForUrl}`;
 
-    const mostCommitLanguageUrl = `https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${nomeUsuario}&theme=default&exclude=HTML,CSS,Portugol`;
+    const mostCommitLanguageUrl = `https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${nomeUsuario}&theme=${themeForUrl}&exclude=HTML,CSS,Portugol`;
 
     useEffect(() => {
         if (nomeUsuario) {

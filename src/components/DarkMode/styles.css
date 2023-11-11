@@ -27,7 +27,7 @@
 }
 
 /* The slider */
-.slider {
+.slider-circle {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -39,7 +39,7 @@
     border-radius: 30px;
 }
 
-.slider:before {
+.slider-circle:before {
     position: absolute;
     content: "";
     height: 1.4em;
@@ -51,11 +51,11 @@
     transition: .4s;
 }
 
-input:checked+.slider {
-    background-color: var(--terceary-color);
+input:checked+.slider-circle {
+    background-color: var(--secondary-color);
 }
 
 
-input:checked+.slider:before {
+input:checked+.slider-circle:before {
     transform: translateX(1.5em);
 }

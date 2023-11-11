@@ -30,7 +30,7 @@
 .subtitle {
     font-weight: 600;
     text-align: left;
-    color: var(--background);
+    color: var(--text-terceary);
     background-color: var(--secondary-color);
     font-size: 1rem;
     /* width: 100%; */
@@ -108,8 +108,8 @@
 }
 
 .subtitle span {
-    color: #fff;
+    color: var(--text-secondary);
     font-size: 1rem;
-    opacity: 0.6;
+    opacity: 0.9;
     max-width: 100px;
 }

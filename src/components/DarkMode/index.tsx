@@ -9,8 +9,10 @@ export function DarkMode() {
             {/* <span>Change Theme </span> */}
             <label className="switch">
                 <input type="checkbox" onChange={handleChange} checked={theme === 'dark'} />
-                <span className="slider"></span>
+                <span className="slider-circle"></span>
             </label>
         </div>
     )
 }
+
+// export const currentTheme = theme;

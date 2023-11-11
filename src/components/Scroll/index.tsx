@@ -33,7 +33,7 @@ export default function ScrollToTop() {
             fontSize: '11px',
             bottom: '40px',
             right: '40px',
-            backgroundColor: '#B995FE',
+            backgroundColor: "var(--terceary-color)",
             color: '#fff',
             textAlign: 'center',
             border: 'none',

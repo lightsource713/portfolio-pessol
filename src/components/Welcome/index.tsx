@@ -15,7 +15,7 @@ export function Welcome(){
     return(
         <>
         <div className="sectionWelcome">
-            <img src="./thumb-bnc.png" className="welcomeImg" />
+            <img src="./bnclike2.png" className="welcomeImg" />
             <div className="sentences">
                {renderSentences()}
             </div>

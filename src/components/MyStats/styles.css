@@ -5,7 +5,7 @@
     max-width: 52vw;
     max-height: 52vh;
     position: absolute;
-    filter: drop-shadow(45px 49px 24px #79797927);
+    filter: var(--shadow);
 }
 .statSection{
     display: flex;
@@ -32,7 +32,7 @@
 .userData p:hover{
     scale: 1.05 ;
     cursor: pointer;
-    background-color: var(--secondary-background);
+    background:none;
 
 }
 .gitImg{
