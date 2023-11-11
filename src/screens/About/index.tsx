@@ -9,16 +9,17 @@ import MyStats from '../../components/MyStats';
 import { Footer } from '../../components/Footer';
 import { TechWorks } from '../../components/TechWorks';
 import { Welcome } from '../../components/Welcome';
+import { DarkMode } from '../../components/DarkMode';
 
 export function About() {
 
     return (
         <>
             <Header />
-
+            {/* <DarkMode /> */}
             <div className="container">
-            <p className='title elementH'>{"<Welcome />"}</p>
-            <Welcome />
+                <p className='title elementH'>{"<Welcome />"}</p>
+                <Welcome />
                 <p className='title elementH' id="about">{"<AboutMe />"}</p>
             </div>
             <AboutMe />

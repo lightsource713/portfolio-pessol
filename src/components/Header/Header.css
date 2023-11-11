@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--secondary-light);
+    background-color: var(--secondary-background);
     font-family: "proclamate_light", sans-serif;
     padding: 2rem 10% 2rem 3.5rem;
     display: flex;

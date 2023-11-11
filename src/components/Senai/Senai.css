@@ -6,7 +6,7 @@
     width: 22rem;
     height: 17rem;
     padding: 2rem 2.5rem;
-    color: var(--primary-dark);
+    color: var(--text-primary);
     font-weight: 600;
     transition: 0.5s;
     cursor: pointer;

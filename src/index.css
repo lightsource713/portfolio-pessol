@@ -1,18 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;600;700&display=swap");
 
 :root {
-    --primary-light: #F3F3F3;
-    --secondary-light: #ffffff;
-    --terceary-light: #c9c9c9;
-    --primary-dark: #242424;
-    --secondary-dark: #4e4e4ebe;
+    --background: #F3F3F3;
+    --secondary-background: #ffffff;
+    --terceary-background: #c9c9c9;
+    --text-primary: #242424;
+    --text-secondary: #4e4e4ebe;
     --primary-color: #0635E0;
     --secondary-color: #7429ff;
-    --terceary-color: #AC80FF;
+    --terceary-color: #AC80FF; 
+    --border: #1f1e1e;
+    --shadow:  19px 19px 49px #ebebeb,
+    -19px -19px 49px #ffffff;
+}
+
+[data-theme='dark'] {
+    --background: #242424;
+    --secondary-background: #4e4e4ebe;
+    --terceary-background: #c9c9c9;
+    --text-primary: #F3F3F3;
+    --text-secondary: #ffffff;
+    --primary-color: #0635E0;
+    --secondary-color: #7429ff;
+    --terceary-color: #AC80FF; 
+    --border: #F3F3F3;
+    --shadow:  19px 19px 49px #4e4e4ebe,
+    -19px -19px 49px #242424;
 }
 
 body {
     overflow-x: hidden;
+    background-color: var(--background);
+    color: var(--text-primary);
+    transition: all 0.5s ease-in-out;
 }
 
 *::-webkit-scrollbar {
@@ -40,16 +60,15 @@ body {
 .form {
     border-radius: 23px;
     cursor: pointer;
-    background: var(--secondary-light);
-    box-shadow: 19px 19px 49px #ebebeb,
-        -19px -19px 49px var(--secondary-light);
+    background: var(--secondary-background);
+    box-shadow: var(--shadow);
 }
 
 .form:active {
     border-radius: 23px;
-    background: var(--secondary-light);
+    background: var(--secondary-background);
     box-shadow: inset 34px 34px 69px #ebebeb,
-        inset -34px -34px 69px var(--secondary-light);
+        inset -34px -34px 69px var(--secondary-background);
 }
 
 * {
@@ -65,12 +84,12 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--primary-dark);
+    color: var(--text-primary);
     cursor: pointer
 }
 
 a:visited {
-    color: var(--primary-dark);
+    color: var(--text-primary);
     cursor: pointer
 }
 
@@ -83,7 +102,7 @@ a:hover {
     font-weight: bold;
     font-family: 'Poppins';
     font-size: 35px;
-    color: #111;
+    color: var(--text-primary);
     margin-left: 10%;
 }
 
@@ -97,7 +116,7 @@ a:hover {
 }
 
 .section {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary-background);
     /* margin-top: 5rem; */
     padding: 8rem 15rem;
     display: flex;
