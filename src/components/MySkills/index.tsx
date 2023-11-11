@@ -23,6 +23,8 @@ import pgadmin from "../../assets/icons/pgsql.svg"
 import tailwind from "../../assets/icons/tailwind.svg"
 
 import CloseIcon from '@mui/icons-material/Close';
+import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
+
 import { ProjectsModal } from '../Modal'
 
 export default function MySkills() {
@@ -57,7 +59,7 @@ export default function MySkills() {
                 </div>
                 <div className="skillsTag form" onClick={toggleVisibility}>
                     <p>Soft Skills</p>
-                    <img src="./arrow-down.svg" className='icon' />
+                    <KeyboardArrowDownRoundedIcon className='icon' />
                 </div>
                 {visibleSoft && (
                     <div className='content'>
@@ -82,7 +84,7 @@ export default function MySkills() {
                 )}
                 <div className="skillsTag form" onClick={toggleVisibilityHard}>
                     <p>Hard Skills</p>
-                    <img src="./arrow-down.svg" className='icon' />
+                    <KeyboardArrowDownRoundedIcon className='icon' />
                 </div>
                 {visibleHard && (
                     <div className="content">
@@ -112,17 +114,15 @@ export default function MySkills() {
                         </div>
                         {visibleModal && (
                             <div className="modalContainer">
-                                <button onClick={toggleVisibilityModal}>
-                                    <CloseIcon className='close' />
-                                </button>
+                                    <CloseIcon 
+                                    onClick={toggleVisibilityModal}
+                                    className='close' 
+                                    color='inherit' />
                                 <ProjectsModal />
                             </div>
                         )}
                     </div>
                 )}
-                {/* <span id="seta">
-                    <img src="./arrow-down.svg" className='icon' />
-                     </span> */}
             </div>
         </>
     )

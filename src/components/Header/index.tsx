@@ -1,6 +1,7 @@
 import './Header.css'
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
+// import { DarkMode } from '../DarkMode'
 
 export default function Header() {
     
@@ -15,6 +16,7 @@ export default function Header() {
                     <NavLink to="/about">About</NavLink>
                     <Link to="skills">Skills</Link>
                     <NavLink to="/about/contact">Contact</NavLink>
+                    {/* <DarkMode /> */}
                 </div>
             </header>
         </>

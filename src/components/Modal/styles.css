@@ -52,8 +52,8 @@
 .arrow{
     cursor: pointer;
     position: fixed;
-    margin-top: 30%;
-    width: 1.5vw;
+    margin-top: 25%;
+    width: 3vw;
     padding: 0vh 1.6vw;
 }
 .arrowLeft {

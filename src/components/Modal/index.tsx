@@ -29,6 +29,7 @@ import react from "../../assets/icons/react.svg"
 import pgadmin from "../../assets/icons/pgsql.svg"
 import tailwind from "../../assets/icons/tailwind.svg"
 
+import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 export function ProjectsModal() {
     interface ArrowProps {
         onClick: () => void;
@@ -36,13 +37,13 @@ export function ProjectsModal() {
 
     const NextArrow: React.FC<ArrowProps> = ({ onClick }) => (
         <div className="arrow next" onClick={onClick}>
-            <img src="./arrow-down.svg" className=' arrow arrowRight' />
+           <KeyboardArrowDownRoundedIcon className=' arrow arrowRight' />
         </div>
     );
 
     const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
         <div className="arrow prev" onClick={onClick}>
-            <img src="./arrow-down.svg" className=' arrow arrowLeft' />
+            <KeyboardArrowDownRoundedIcon className=' arrow arrowLeft' />
         </div>
     );
 
