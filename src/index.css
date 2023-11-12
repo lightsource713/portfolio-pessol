@@ -30,10 +30,10 @@
     --secondary-color: #9660fc;
     --terceary-color: #d2baff;
     --border: #F3F3F3;
-    --shadow:   5px 5px 8px #202020,
-    -5px -5px 8px #282828;
-    --shadow2:  5px 5px 8px #202020,
-             -5px -5px 8px #282828;
+    --shadow: 5px 5px 8px #202020,
+        -5px -5px 8px #282828;
+    --shadow2: 5px 5px 8px #202020,
+        -5px -5px 8px #282828;
 }
 
 body {
@@ -227,5 +227,113 @@ span {
 
     to {
         margin-top: 0%;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .container{
+        display: flex;
+    }    
+} */
+
+@media screen and (max-width: 800px) {
+    .containerApp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding-left: 5vw;
+    }
+
+    .text {
+        margin-left: 0vw;
+    }
+
+    .img {
+        /* grid-column: 0; */
+        position: fixed;
+        display: inline-block;
+        right: 0;
+    }
+
+    .img3d {
+        max-width: 40vw;
+        padding-top: 40vh;
+        cursor: pointer;
+        filter: var(--shadow);
+        animation: float 2s ease-in-out infinite;
+    }
+
+    #title {
+        font-family: "proclamate_heavy", sans-serif;
+        font-size: 15vw;
+        font-weight: bold;
+        color: var(--text-primary);
+        text-align: "center";
+        margin-top: 5vh;
+        top: 0;
+        /* position: fixed; */
+        margin-top: 30%;
+    }
+
+    #firstA {
+        font-family: "OldEnglishFive", sans-serif;
+        font-weight: 500;
+        font-size: 11vw;
+    }
+
+    #secondA {
+        font-family: "OldEnglishFive", sans-serif;
+        font-weight: 600;
+        font-size: 1.9vw;
+    }
+
+    #subtitle {
+        color: var(--text-secondary);
+        font-family: "Poppins";
+        font-size: 5vw;
+        font-weight: 600;
+        letter-spacing: 0.9px;
+        margin-top: 80%;
+        max-width: 70%;
+    }
+
+    #start {
+        width: 90%;
+        height: 5vh;
+        border: none;
+        border-radius: 1.6rem;
+        padding: 4vh 16vw;
+        margin-top: 4.8vh;
+        display: flex;
+        align-items: center;
+        transition: background-color 0.8s;
+        justify-content: center;
+        opacity: 1;
+        cursor: pointer;
+        background: linear-gradient(145deg, var(--secondary-background), var(--quartenary-background));
+        /* box-shadow: 20px 20px 60px #414141, */
+        /* -20px -20px 60px #242424; */
+    }
+
+    #start img {
+        max-width: 0.5rem;
+        margin-left: 1.2rem;
+        color: var(--text-primary);
+    }
+
+    #start p {
+        font-family: "Poppins";
+        font-weight: 700;
+        color: var(--text-primary);
+        font-size: 5vw;
+    }
+
+    #start:active {
+        background: var(--secondary-background);
+        box-shadow: inset 20px 20px 60px var(--quartenary-background),
+            inset -20px -20px 60px var(--secondary-background);
+            width: 90%;
+            height: 5vh;
     }
 }
