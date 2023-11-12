@@ -258,7 +258,7 @@ span {
 
     .img3d {
         max-width: 50vw;
-        margin-top: 43vh;
+        margin-top: 45vh;
         cursor: pointer;
         filter: var(--shadow);
         animation: float 2s ease-in-out infinite;
@@ -266,7 +266,7 @@ span {
 
     #title {
         font-family: "proclamate_heavy", sans-serif;
-        font-size: 18vw;
+        font-size: 23vw;
         font-weight: bold;
         color: var(--text-primary);
         text-align: "center";
@@ -279,8 +279,8 @@ span {
 
     #firstA {
         font-family: "OldEnglishFive", sans-serif;
-        font-weight: 500;
-        font-size: 15vw;
+        font-weight: 600;
+        font-size: 17vw;
     }
 
     #secondA {
@@ -349,10 +349,10 @@ span {
         position: absolute;
         z-index: 1;
         font-family: 'Poppins';
-        margin-top: 155%; 
+        margin-top: 45vh;
         margin-left: -100%;
         right: 0;
-        width: 110%;
+        max-width: 150%;
         /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
         opacity: 0;
         transition: opacity 1s;
