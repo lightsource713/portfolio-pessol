@@ -87,8 +87,8 @@
   z-index: 1;
   max-width: 50%;
   font-family: 'Poppins';
-  margin-top: -15rem;
-  margin-left: 7rem;
+  margin-top: -13rem;
+  margin-left: -38rem;
   filter: drop-shadow(12px 19px 17px #3f3f3f27);
   opacity: 0;
   transition: opacity 1s;
