@@ -1,4 +1,4 @@
-.sectionTech{
+.sectionTech {
     display: flex;
     gap: 2rem;
 }
@@ -12,4 +12,49 @@
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
     transition: 0.5s;
+}
+
+.sectionImg, .sectionImgAbout {
+    max-width: 330px;
+    /* padding: 0rem 0rem 0rem 0rem; */
+    margin-right: -50.8rem;
+    position: absolute;
+    margin-top: -24.8rem;
+    filter: var(--shadow);
+}
+
+@media screen and (max-width: 800px) {
+    .mainText {
+        font-weight: 500;
+        text-align: left;
+        font-size: 17px;
+        letter-spacing: 0.7px;
+        animation: appear 1ms ease-in-out;
+        animation-timeline: view();
+        animation-range: cover 0% cover 35%;
+        transition: 0.5s;
+    }
+
+    .sectionImg {
+        position: absolute;
+        max-width: 50vw;
+        margin-right: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        z-index: 2;
+    }
+
+    #aboutme {
+        margin-top: 3rem;
+    }
+
+    .sectionImgAbout {
+        position: absolute;
+        max-width: 40vw;
+        margin-right: 0rem;
+        margin-top: -11rem;
+        margin-left: 60%;
+        margin-bottom: 0rem;
+        z-index: 2;
+    }
 }

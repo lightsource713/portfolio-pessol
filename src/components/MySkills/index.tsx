@@ -68,7 +68,7 @@ export default function MySkills() {
                             <div className="progress f"></div>
                         </div>
                         <span>
-                            Habilidades de apresentação</span>
+                            Proatividade</span>
                         <div className="bar">
                             <div className="progress s"></div>
                         </div>

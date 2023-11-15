@@ -1,26 +1,53 @@
 .header {
-    background-color: var(--secondary-background);
-    font-family: "proclamate_light", sans-serif;
-    padding: 2rem 10% 2rem 3.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--secondary-background);
+  font-family: "proclamate_light", sans-serif;
+  padding: 2rem 10% 2rem 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .links {
-    display: flex;
-    gap: 62px;
-    font-family: 'Poppins';
-    color: #000000bf;
-    font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.5px;
+  display: flex;
+  gap: 62px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
 }
 
 .active-link {
-  color: purple; /* Ou qualquer cor de roxo desejada */
+  color: purple;
+  /* Ou qualquer cor de roxo desejada */
+}
+.titleHeader{
+  font-size: 2em;
+  font-weight: bold;
+}
+#secondA {
+  font-family: "OldEnglishFive", sans-serif;
+  font-weight: 600;
+  font-size: 1.9vw;
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    padding: 2rem 5vw 2rem 5vw;
+    /* width: 100vw; */
+  }
+
+  .links {
+    display: flex;
+    font-size: 3.5vw;
+    gap: 20px;
+  }
+
+  #secondA {
+    font-family: "OldEnglishFive", sans-serif;
+    font-weight: 600;
+    font-size: 7vw;
+  }
 }

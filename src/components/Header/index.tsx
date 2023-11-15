@@ -8,9 +8,9 @@ export default function Header() {
     return (
         <>
             <header className='header'>
-                <a href="/">
-                    <h1><span id='secondA'>A</span>nabe</h1>
-                </a>
+                <NavLink to="/" className="titleHeader">
+                    <span id='secondA'>A</span>nabe
+                </NavLink>
                 <div className="links">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/about">About</NavLink>
