@@ -114,9 +114,9 @@ export default function MySkills() {
                         </div>
                         {visibleModal && (
                             <div className="modalContainer">
-                                    <CloseIcon 
+                                <CloseIcon
                                     onClick={toggleVisibilityModal}
-                                    className='close' 
+                                    className='close'
                                     color='inherit' />
                                 <ProjectsModal />
                             </div>

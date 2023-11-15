@@ -88,7 +88,7 @@
   background: var(--secondary-background);
   box-shadow: inset 20px 20px 60px var(--B5),
     inset -20px -20px 60px var(--secondary-background);
-  }
+}
 
 #start:hover {
   background: linear-gradient(-45deg, var(--secondary-background), var(--B5));
