@@ -8,6 +8,7 @@
   height: 100vh;
   overflow-y: hidden;
   user-select: none;
+  transition: .6s;
 }
 
 .text {
