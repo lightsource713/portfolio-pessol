@@ -1,4 +1,4 @@
-.statsImg{
+.statsImg {
     left: 0;
     margin-top: -35vh;
     margin-left: 1vw;
@@ -7,45 +7,75 @@
     position: absolute;
     filter: var(--shadow);
 }
-.statSection{
+
+.statSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1vh;
 }
-.statSection p{
+
+.statSection p {
     padding: 0rem 0rem;
     margin: 0;
 }
-.userData{
+
+.userData {
     display: flex;
     gap: 1.2vw;
     margin: 2vh 0vw;
 }
-.userData p{
+
+.userData p {
     background-color: var(--background);
     padding: 1vh 3vh;
     border-radius: 15px;
     color: var(--text-secondary);
     transition: 0.6s;
 }
-.userData p:hover{
-    scale: 1.05 ;
+
+.userData p:hover {
+    scale: 1.05;
     cursor: pointer;
-    background:none;
+    background: none;
 
 }
-.gitImg{
+
+.gitImg {
     max-width: 10vh;
     max-height: 10vh;
     border-radius: 100%;
     border: solid 0.3vw var(--background);
     transition: 0.6s;
 }
-.gitImg:hover{
+
+.gitImg:hover {
     scale: 1.2;
 }
-.gitstats{
+
+.gitstats {
     display: flex;
     gap: 1vw;
+}
+
+@media screen and (max-width: 650px) {
+
+    .statSection,
+    .userData,
+    .gitstats {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .statsImg {
+        margin-right: 0rem;
+        margin-top: -99vh;
+        margin-left: 49%;
+        transform: scaleX(-1);
+        max-width: 48vw;
+        position: absolute;
+        filter: var(--shadow);
+    }
+
 }

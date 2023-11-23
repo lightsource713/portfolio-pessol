@@ -45,3 +45,47 @@
     padding: 2rem 2rem;
     justify-content: center;
 }
+
+@media screen and (max-width: 650px) {
+    .card {
+        width: 20rem;
+        height: 15rem;
+        padding: 2rem 2.5rem;
+        color: var(--text-primary);
+        font-weight: 600;
+        transition: 0.5s;
+        cursor: pointer;
+        animation: appear 1ms ease-in-out;
+        animation-timeline: view();
+        animation-range: cover 0% cover 50%;
+        transition: 0.5s;
+    }
+    
+    .card p {
+        text-align: center;
+        font-family: 'proclamate_light';
+        font-size: 28px;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    
+    .cardImage {
+        max-width: 150px;
+        max-height: 150px;
+        padding: 1rem;
+    }
+    
+    .school, .sectionTech {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    
+    .works {
+        display: flex;
+        padding: 2rem 2rem;
+        justify-content: center;
+    }
+    
+}
