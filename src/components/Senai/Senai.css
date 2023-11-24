@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 650px) {
     .card {
-        width: 20rem;
+        width: 15rem;
         height: 15rem;
         padding: 2rem 2.5rem;
         color: var(--text-primary);
@@ -87,5 +87,4 @@
         padding: 2rem 2rem;
         justify-content: center;
     }
-    
 }

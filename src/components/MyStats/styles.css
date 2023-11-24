@@ -70,6 +70,8 @@
 
     .statsImg {
         margin-right: 0rem;
+        display: none;
+        visibility: none;
         margin-top: -99vh;
         margin-left: 49%;
         transform: scaleX(-1);
