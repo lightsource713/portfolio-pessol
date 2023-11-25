@@ -48,10 +48,14 @@
 }
 
 .iframeDocs {
-    width: 140%;
-    margin-left: -25%;
-    height: 50vh;
+    width: 100%;
+    /* margin-left: -25%; */
+    height: 100vh;
     border: 0px;
+}
+.matDoc{
+    width: 150%;
+    margin-left: -25%;
 }
 
 .iframeInfo {
@@ -80,19 +84,21 @@
 }
 
 .sectionWorks {
-    width: 100%;
-    gap: 5rem 0rem;
+    width: 95%;
+    margin: 0 auto;
+    gap: 6rem 0rem;
+    padding: 5rem 0rem;
     display: grid;
-    grid-template-rows: auto auto;
+    /* grid-template-rows: auto auto; */
     grid-template-columns: repeat(2, 1fr);
     align-items: start;
-    justify-content: start;
+    justify-content: center;
     /* padding: 2rem 0rem 7rem 5rem; */
 }
-
 .Tech {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .schoolSbj {
@@ -103,8 +109,8 @@
     font-family: 'Poppins';
     padding: 0rem;
     margin: 0rem;
-    width: 100%;
     align-items: center;
+    width: 100%;
 }
 
 .subtitle span {
@@ -131,7 +137,7 @@
         gap: 5rem 0rem;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: start;
         /* padding: 2rem 0rem 7rem 5rem; */
     }

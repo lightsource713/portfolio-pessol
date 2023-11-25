@@ -14,7 +14,9 @@
     height: 100%;
     padding: 2rem;
 }
-
+.app{
+    width: 100%;
+}
 .slideProj img {
     width: 90%;
     border-radius: 5px;

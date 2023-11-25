@@ -21,7 +21,7 @@ export function  ReportagemMtm() {
 export function AtvFilm() {
     return (
         <div className="iframe form">
-            <iframe className="iframeDocs form" src="https://docs.google.com/document/d/e/2PACX-1vQ8IW9hwp8JTQ8eE0VYR9sq39-yPVNhi6Ey-No0UKy5gaIaZgUzjm53Nc9aEDaP4Zg21tfhiSDP6ZSg/pub?embedded=true"></iframe>
+            <iframe className="iframeDocs form matDoc" src="https://docs.google.com/document/d/e/2PACX-1vQ8IW9hwp8JTQ8eE0VYR9sq39-yPVNhi6Ey-No0UKy5gaIaZgUzjm53Nc9aEDaP4Zg21tfhiSDP6ZSg/pub?embedded=true"></iframe>
         </div>
     )
 }
@@ -31,7 +31,7 @@ export function AtvFilm() {
 export function Text() {
     return (
         <div className="iframe form">
-            <iframe className="iframeDocs form" src="https://docs.google.com/document/d/e/2PACX-1vRX-kszdpfMP7Ci_VTNHYrv-wyTxpkOX4BUlPJ0dkTY0FlIAP2xM83Qz7VEcsz3KjE-XrUGbuF69SAX/pub?embedded=true"></iframe>
+            <iframe className="iframeDocs form matDoc" src="https://docs.google.com/document/d/e/2PACX-1vRX-kszdpfMP7Ci_VTNHYrv-wyTxpkOX4BUlPJ0dkTY0FlIAP2xM83Qz7VEcsz3KjE-XrUGbuF69SAX/pub?embedded=true"></iframe>
         </div>
     )
 }

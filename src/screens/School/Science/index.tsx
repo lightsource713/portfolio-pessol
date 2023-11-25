@@ -25,7 +25,7 @@ export function Science() {
                         </h2>
                         <MindMap />
                     </div>
-                    <div className="schoolSbj">
+                    <div className="schoolSbj test">
         
                         <h2 className='subtitle'>
                             Prática - Experimento Eletroimã

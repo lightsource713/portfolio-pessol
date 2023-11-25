@@ -39,19 +39,19 @@ export function Tech() {
                             Modelagem e programação de aplicativos <br />
                         </h2>
                             <XP />
-                            <span>Processo de Desenvolvimento de Software</span>
+                            {/* <span>Processo de Desenvolvimento de Software</span> */}
                     </div>
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
+                        Diagramas e telas da Situação de Aprendizaem
                         </h2>
                             <SA />
-                            <span>Diagramas e telas da Situação de Aprendizaem</span>
                     </div>
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
+                        Teoria da POO
                         </h2>
                             <POO />
-                            <span>Teoria da POO</span>
                     </div>
                     {/* Charles */}
                     <div className="schoolSbj">
@@ -59,28 +59,26 @@ export function Tech() {
                             Implantação e Manutenção de Sistemas <br />
                         </h2>
                             <VM />
-                            <span>Pesquisa de Virtualizadores</span>
                     </div>
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
+                        Atividade Prática
                         </h2>
                             <Print />
-                            <span>Atividade Prática</span>
                     </div>
 
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
-                            Desenvolvimento, Testes e Banco de Dados <br />
+                            Testes e Banco de Dados <br />
                         </h2>
+                            {/* <span>APIGitHub</span> */}
                             <APIGit />
-                            <span>APIGitHub</span>
                     </div>
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
                             Desenvolvimento, Testes e Banco de Dados <br />
                         </h2>
                             <CanvaAPI />
-                            <span>APIGitHub</span>
                     </div>
                     {/* <div className="schoolSbj">
                         <h2 className='subtitle'>
@@ -91,9 +89,9 @@ export function Tech() {
 
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
+                        Retomada Banco de Dados
                         </h2>
                             <RetakeBD />
-                            <span>Retomada Banco de Dados</span>
                     </div>
 
                 </div>

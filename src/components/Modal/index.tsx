@@ -8,6 +8,10 @@ import CantinaGo from '../../assets/img/CantinaGo.png'
 import KongMing from '../../assets/img/KongMing.png'
 import AtomSat from '../../assets/img/AtomSat.png'
 import Dashboard from '../../assets/img/dashboard.png'
+import Login from '../../assets/img/Login.png'
+import apps from '../../assets/img/apps.png'
+import Home from '../../assets/img/Home.png'
+import List from '../../assets/img/List.png'
 //icons
 import html from "../../assets/icons/html.svg"
 import css from "../../assets/icons/css.svg"
@@ -140,15 +144,28 @@ export function ProjectsModal() {
                     </div>
                   
                     <div className="slideProj">
-                        <p>Cadastro Veículos</p>
-                        <img src="" />
+                        <p>Login BackEnd</p>
+                        <a href="https://github.com/anabmartins/LoginBackend" target='_blank' className='linkImg'>
+                        <img src={Login} />
+                        </a>
                         <div className="iconsHard iconsProj">
                             <img src={js} />
                             <img src={react} />
-                            <img src={tailwind} />
                             <img src={pgadmin} />
                             <img src={java} />
                             <img src={spring} />
+                        </div>
+                    </div>
+                    
+                    <div className="slideProj">
+                        <p>App Github</p>
+                        <a href="https://github.com/anabmartins/RN-GitHub-RepoList" target='_blank' className='linkImg'>
+                        {/* <img src={Home} className='app'/> */}
+                        <img src={apps} className='app'/>
+                        </a>
+                        <div className="iconsHard iconsProj">
+                            <img src={js} />
+                            <img src={react} />
                         </div>
                     </div>
 

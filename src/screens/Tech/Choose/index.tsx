@@ -19,7 +19,7 @@ export function Choose() {
                             Artigo Científico <br />
                         </h2>
                         <IC />
-                            <span>Desenvolvimento de uma plataforma calculadora para análise dos níveis de ruído rodoviário</span>
+                            {/* <span>Desenvolvimento de uma plataforma calculadora para análise dos níveis de ruído rodoviário</span> */}
                     </div>
                     <div className="schoolSbj">
                         <h2 className='subtitle'>
