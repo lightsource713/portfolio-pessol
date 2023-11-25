@@ -10,8 +10,8 @@ import AtomSat from '../../assets/img/AtomSat.png'
 import Dashboard from '../../assets/img/dashboard.png'
 import Login from '../../assets/img/Login.png'
 import apps from '../../assets/img/apps.png'
-import Home from '../../assets/img/Home.png'
-import List from '../../assets/img/List.png'
+// import Home from '../../assets/img/Home.png'
+// import List from '../../assets/img/List.png'
 //icons
 import html from "../../assets/icons/html.svg"
 import css from "../../assets/icons/css.svg"
