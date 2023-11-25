@@ -31,7 +31,7 @@ import spring from "../../assets/icons/spring.svg"
 import mui from "../../assets/icons/mui.svg"
 import react from "../../assets/icons/react.svg"
 import pgadmin from "../../assets/icons/pgsql.svg"
-import tailwind from "../../assets/icons/tailwind.svg"
+// import tailwind from "../../assets/icons/tailwind.svg"
 
 import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 export function ProjectsModal() {
